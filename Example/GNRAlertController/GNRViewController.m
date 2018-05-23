@@ -7,6 +7,7 @@
 //
 
 #import "GNRViewController.h"
+#import <GNRAlertController/GNRAlertController.h>
 
 @interface GNRViewController ()
 
@@ -18,6 +19,18 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    GNRAlertAction *cancel = [GNRAlertAction actionWithTitle:nil type:GNRAlertActionTypeCancel handler:^(GNRAlertAction *action) {
+        NSLog(@"Cancel");
+    }];
+    
+    GNRAlertAction *confirm = [GNRAlertAction actionWithTitle:nil type:GNRAlertActionTypeNormal handler:^(GNRAlertAction *action) {
+        NSLog(@"Confirm");
+    }];
+
+    [[GNRAlertController alertTitle:@"标题标题标题标题标题标题标题" message:nil actions:@[cancel,confirm]] show];
 }
 
 - (void)didReceiveMemoryWarning

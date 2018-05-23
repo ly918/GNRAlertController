@@ -1,0 +1,6 @@
+framework module GNRAlertController {
+  umbrella header "GNRAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}
