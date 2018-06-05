@@ -19,6 +19,11 @@
 @end
 
 @implementation GNRAlertActionView
+static NSString *GNRAlertControllerActionEnableKeyPath = @"enabled";
+
+- (void)dealloc{
+    [self removeObserver];
+}
 
 - (instancetype)init{
     if (self = [super init]) {
@@ -36,9 +41,11 @@
 }
 
 - (void)setActions:(NSArray<GNRAlertAction *> *)actions{
-    _actions = actions;
+    [self removeObserver];
     [self clear];
+    _actions = actions;
     [self layout];
+    [self addObserver];
 }
 
 - (void)layout{
@@ -48,9 +55,13 @@
         UIButton *btn = [UIView buttonWithButtonType:UIButtonTypeCustom title:obj.title image:nil target:self action:@selector(buttonPressed:)];
         btn.tag = idx;
         btn.clipsToBounds = NO;
+        btn.enabled = obj.enabled;
         [btn setTitleColor:obj.type==GNRAlertActionTypeCancel?[GNRAlertControllerManager manager].config.cancelTextColor:[GNRAlertControllerManager manager].config.confirmTextColor forState:UIControlStateNormal];
         [btn setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]] forState:UIControlStateNormal];
         [btn setBackgroundImage:[UIImage imageWithColor:[UIColor colorWithHexString:@"#e7e7e7"]] forState:UIControlStateHighlighted];
+        [btn setBackgroundImage:[UIImage imageWithColor:[UIColor groupTableViewBackgroundColor]] forState:UIControlStateDisabled];
+        [btn setTitleColor:[(obj.type==GNRAlertActionTypeCancel?[GNRAlertControllerManager manager].config.cancelTextColor:[GNRAlertControllerManager manager].config.confirmTextColor) colorWithAlphaComponent:0.5] forState:UIControlStateDisabled];
+
         [self addSubview:btn];
         
         if (lastBtn) {
@@ -84,6 +95,29 @@
     
     [self installLine];
 }
+
+
+- (void)addObserver{
+    [self.actions enumerateObjectsUsingBlock:^(GNRAlertAction * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [obj addObserver:self forKeyPath:GNRAlertControllerActionEnableKeyPath options:NSKeyValueObservingOptionNew context:nil];
+    }];
+}
+
+- (void)removeObserver{
+    [self.actions enumerateObjectsUsingBlock:^(GNRAlertAction * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [obj removeObserver:self forKeyPath:GNRAlertControllerActionEnableKeyPath];
+    }];
+}
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context{
+    if ([keyPath isEqualToString:GNRAlertControllerActionEnableKeyPath]) {
+        GNRAlertAction *action = object;
+        NSInteger index = [self.actions indexOfObject:action];
+        UIButton *btn = [self.buttons objectAtIndex:index];
+        btn.enabled = action.enabled;
+    }
+}
+
 
 - (void)clear{
     [self.buttons enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {

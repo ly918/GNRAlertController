@@ -16,6 +16,13 @@
                    message:(NSString *)message
                    actions:(NSArray <GNRAlertAction *>*)actions;
 
++ (instancetype)alertTitle:(NSString *)title
+                   message:(NSString *)message
+   attributeTitleSubStrArr:(NSArray <NSString *>*)attributeTitleSubStrArr
+ attributeMessageSubStrArr:(NSArray <NSString *>*)attributeMessageSubStrArr
+        attributeTextColor:(UIColor *)attributeTextColor
+                   actions:(NSArray <GNRAlertAction *>*)actions;
+
 + (instancetype)alertCustomContentView:(UIView *)customContentView
                                actions:(NSArray <GNRAlertAction *>*)actions;
 

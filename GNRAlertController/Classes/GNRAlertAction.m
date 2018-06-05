@@ -18,6 +18,7 @@
     action.title = title;
     action.type = type;
     action.handler = handler;
+    action.enabled = YES;
     return action;
 }
 

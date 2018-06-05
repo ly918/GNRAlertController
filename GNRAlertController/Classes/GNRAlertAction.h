@@ -17,7 +17,7 @@ typedef NS_ENUM(NSInteger, GNRAlertActionType) {
 typedef void(^GNRAlertActionHandler)(GNRAlertAction *action);
 
 @interface GNRAlertAction : NSObject
-
+@property (nonatomic, assign)BOOL enabled;
 @property (nonatomic, strong)NSString *title;
 @property (nonatomic, assign)GNRAlertActionType type;
 @property (nonatomic, copy)GNRAlertActionHandler handler;

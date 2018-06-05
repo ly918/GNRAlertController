@@ -8,7 +8,7 @@
 
 #import "GNRViewController.h"
 #import <GNRAlertController/GNRAlertController.h>
-
+#import <Masonry/Masonry.h>
 @interface GNRViewController ()
 
 @end
@@ -22,15 +22,43 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    GNRAlertAction *cancel = [GNRAlertAction actionWithTitle:nil type:GNRAlertActionTypeCancel handler:^(GNRAlertAction *action) {
+    __block GNRAlertAction *cancel = [GNRAlertAction actionWithTitle:nil type:GNRAlertActionTypeCancel handler:^(GNRAlertAction *action) {
         NSLog(@"Cancel");
+        
     }];
+    cancel.enabled = NO;
     
     GNRAlertAction *confirm = [GNRAlertAction actionWithTitle:nil type:GNRAlertActionTypeNormal handler:^(GNRAlertAction *action) {
         NSLog(@"Confirm");
     }];
-
-    [[GNRAlertController alertTitle:@"标题标题标题标题标题标题标题" message:nil actions:@[cancel,confirm]] show];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        cancel.enabled = YES;
+    });
+    
+    //普通
+//    [[GNRAlertController alertTitle:@"标题标题标题标题标题标题标题" message:nil actions:@[cancel,confirm]] show];
+    
+    //高亮文本
+//    [[GNRAlertController alertTitle:@"2S后可以取消" message:@"提示提示提示提示提TB示提示提示提示提示提示" attributeTitleSubStrArr:nil attributeMessageSubStrArr:@[@"TB"] attributeTextColor:[UIColor orangeColor] actions:@[cancel,confirm]]show];
+    
+    //自定义UI
+    UIView *view = [[UIView alloc]init];
+    view.backgroundColor = [UIColor redColor];
+    UIView *subView = [[UIView alloc]init];
+    subView.backgroundColor = [UIColor greenColor];
+    [view addSubview:subView];
+    [subView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.bottom.equalTo(@0);
+        make.left.equalTo(@10);
+        make.right.equalTo(@(-10));
+        make.height.mas_equalTo(100);
+    }];
+    [[GNRAlertController alertCustomContentView:view actions:@[cancel,confirm]] show];
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

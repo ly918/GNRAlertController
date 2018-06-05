@@ -9,7 +9,7 @@
 #import <GNRAlertController/GNRAlertControllerManager.h>
 #import <GNRFoundation/UIView+Factory.h>
 #import <Masonry/Masonry.h>
-
+#import <GNRFoundation/NSString+FirstLetter.h>
 @interface GNRAlertContentView()
 @property (nonatomic,strong)UILabel *titleLabel;
 @property (nonatomic,strong)UILabel *msgLabel;
@@ -21,6 +21,7 @@
 - (instancetype)init{
     if (self = [super init]) {
         [self installUI];
+        
     }
     return self;
 }
@@ -44,6 +45,10 @@
 - (void)setUpTitle:(NSString *)title message:(NSString *)message{
     self.titleLabel.text = title?:@"";
     self.msgLabel.text = message?:@"";
+    NSAttributedString *titleAtt = [NSString t_changeCorlorWithColor:self.attributeTextColor TotalString:title SubStringArray:self.subTitleStrArr];
+    self.titleLabel.attributedText = titleAtt;
+    NSAttributedString *messageAtt = [NSString t_changeCorlorWithColor:self.attributeTextColor TotalString:message SubStringArray:self.subMessageStrArr];
+    self.msgLabel.attributedText = messageAtt;
     [self layout];
 }
 

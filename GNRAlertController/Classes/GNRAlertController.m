@@ -21,15 +21,12 @@
 
 //content
 @property (nonatomic,strong)UIView *contentSuperView;
-@property (nonatomic,strong)GNRAlertContentView *contentView;
-@property (nonatomic,strong)UIView *customContentView;
+@property (nonatomic,strong)UIView *contentView;
 
 //action
 @property (nonatomic,strong)UIView *actionSuperView;
 @property (nonatomic,strong)GNRAlertActionView *actionView;
 
-@property (nonatomic, copy)NSString *alertTitle;
-@property (nonatomic, copy)NSString *alertMsg;
 @property (nonatomic, strong)NSArray <GNRAlertAction *>*actions;
 
 @end
@@ -40,15 +37,13 @@
     NSLog(@"GNRAlertController Dealloc!");
 }
 
-- (instancetype)initWithAlertTitle:(NSString *)title
-                           message:(NSString *)message
-                           actions:(NSArray <GNRAlertAction *>*)actions{
+- (instancetype)initWithCustomContentView:(UIView *)customContentView
+                               actions:(NSArray <GNRAlertAction *>*)actions{
     if (self = [super init]) {
         self.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
         self.modalPresentationStyle = UIModalPresentationCustom;
+        _contentView = customContentView;
         _alertID = [NSUUID UUID].UUIDString;
-        _alertTitle = title;
-        _alertMsg = message;
         _actions = actions;
     }
     return self;
@@ -57,14 +52,31 @@
 + (instancetype)alertTitle:(NSString *)title
                    message:(NSString *)message
                    actions:(NSArray <GNRAlertAction *>*)actions{
-    GNRAlertController *alertController = [[GNRAlertController alloc]initWithAlertTitle:title message:message actions:actions];
+    GNRAlertContentView *contentView = [[GNRAlertContentView alloc]init];
+    [contentView setUpTitle:title message:message];
+    GNRAlertController *alertController = [[GNRAlertController alloc]initWithCustomContentView:contentView actions:actions];
+    return alertController;
+}
+
++ (instancetype)alertTitle:(NSString *)title
+                   message:(NSString *)message
+   attributeTitleSubStrArr:(NSArray <NSString *>*)attributeTitleSubStrArr
+ attributeMessageSubStrArr:(NSArray <NSString *>*)attributeMessageSubStrArr
+        attributeTextColor:(UIColor *)attributeTextColor
+                   actions:(NSArray <GNRAlertAction *>*)actions{
+    GNRAlertContentView *contentView = [[GNRAlertContentView alloc]init];
+    contentView.subTitleStrArr = attributeTitleSubStrArr;
+    contentView.subMessageStrArr = attributeMessageSubStrArr;
+    contentView.attributeTextColor = attributeTextColor;
+    [contentView setUpTitle:title message:message];
+    GNRAlertController *alertController = [[GNRAlertController alloc]initWithCustomContentView:contentView actions:actions];
     return alertController;
 }
 
 + (instancetype)alertCustomContentView:(UIView *)customContentView
                                actions:(NSArray <GNRAlertAction *>*)actions{
-    
-    return nil;
+    GNRAlertController *alertController = [[GNRAlertController alloc]initWithCustomContentView:customContentView actions:actions];
+    return alertController;
 }
 
 - (BOOL)validAlert{
@@ -72,8 +84,8 @@
         NSLog(@"GNRAlertController Error: actions count can not be zero!");
         return NO;
     }
-    if (!self.alertTitle) {
-        NSLog(@"GNRAlertController Error: alertTitle can not be nil!");
+    if (!_contentView) {
+        NSLog(@"GNRAlertController Error: content view can not be nil!");
         return NO;
     }
     return YES;
@@ -90,8 +102,10 @@
 
 - (void)showAnimated:(BOOL)animated{
     self.view.backgroundColor = [UIColor colorWithWhite:0 alpha:0];
-    self.containerView.transform = CGAffineTransformMakeScale(0.1, 0.1);
+    self.containerView.alpha = 0;
+    self.containerView.transform = CGAffineTransformMakeScale(1.2, 1.2);
     [UIView animateWithDuration:animated?0.3:0 animations:^{
+        self.containerView.alpha = 1;
         self.view.backgroundColor = [UIColor colorWithWhite:0 alpha:0.5];
         self.containerView.transform = CGAffineTransformMakeScale(1, 1);
     } completion:^(BOOL finished) {
@@ -128,7 +142,6 @@
 }
 
 - (void)updateUI{
-    [self.contentView setUpTitle:self.alertTitle message:self.alertMsg];
     self.actionView.actions = self.actions;
     [self.view layoutIfNeeded];
 }
@@ -194,13 +207,6 @@
         _contentSuperView = [[UIView alloc]init];
     }
     return _contentSuperView;
-}
-
-- (GNRAlertContentView *)contentView{
-    if (!_contentView) {
-        _contentView = [[GNRAlertContentView alloc]init];
-    }
-    return _contentView;
 }
 
 - (GNRAlertActionView *)actionView{
