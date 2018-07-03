@@ -65,7 +65,7 @@
 		7C73E1AE16A8AC342FF29C0F /* Pods_GNRAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNRAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96C090BAE162353028386D90 /* Pods-GNRAlertController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNRAlertController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GNRAlertController_Tests/Pods-GNRAlertController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AA023DBA2915F528535E103A /* GNRAlertController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GNRAlertController.podspec; path = ../GNRAlertController.podspec; sourceTree = "<group>"; };
+		AA023DBA2915F528535E103A /* GNRAlertController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GNRAlertController.podspec; path = ../GNRAlertController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F5AD41471F7E82AD1EDE7EFE /* Pods-GNRAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNRAlertController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GNRAlertController_Example/Pods-GNRAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

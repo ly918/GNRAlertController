@@ -6,7 +6,6 @@
 //
 
 #import "GNRAlertController.h"
-#import <GNRAlertController/GNRAlertControllerManager.h>
 #import <GNRAlertController/GNRAlertContentView.h>
 #import <GNRAlertController/GNRAlertActionView.h>
 
@@ -45,6 +44,7 @@
         _contentView = customContentView;
         _alertID = [NSUUID UUID].UUIDString;
         _actions = actions;
+        _config = [GNRAlertControllerManager manager].config;
     }
     return self;
 }
@@ -80,10 +80,6 @@
 }
 
 - (BOOL)validAlert{
-    if (!self.actions.count) {
-        NSLog(@"GNRAlertController Error: actions count can not be zero!");
-        return NO;
-    }
     if (!_contentView) {
         NSLog(@"GNRAlertController Error: content view can not be nil!");
         return NO;
@@ -155,7 +151,7 @@
     
     [self.containerView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.equalTo(@0);
-        make.width.equalTo(@([GNRAlertControllerManager manager].config.width_containerView));
+        make.width.equalTo(@(self.config.width_containerView));
     }];
     
     [self.contentSuperView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -163,13 +159,14 @@
         make.bottom.equalTo(self.actionSuperView.mas_top);
     }];
     
-    [self.actionSuperView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.right.bottom.equalTo(@0);
-        make.height.equalTo(@([GNRAlertControllerManager manager].config.height_button));
-    }];
-    
     [self.contentView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(@0);
+    }];
+    
+    
+    [self.actionSuperView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.bottom.equalTo(@0);
+        make.height.equalTo(@(self.actions.count?self.config.height_button:0));
     }];
     
     [self.actionView mas_makeConstraints:^(MASConstraintMaker *make) {

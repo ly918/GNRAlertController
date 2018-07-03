@@ -7,10 +7,12 @@
 
 #import <UIKit/UIKit.h>
 #import <GNRAlertController/GNRAlertAction.h>
+#import <GNRAlertController/GNRAlertControllerManager.h>
 
 @interface GNRAlertController : UIViewController
 
 @property (nonatomic, strong, readonly)NSString *alertID;
+@property (nonatomic, strong)GNRAlertControllerConfig *config;
 
 + (instancetype)alertTitle:(NSString *)title
                    message:(NSString *)message

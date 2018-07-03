@@ -6,8 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <GNRAlertController/GNRAlertController.h>
 #import <GNRAlertController/GNRAlertControllerConfig.h>
+
+@class GNRAlertController;
 
 @interface GNRAlertControllerManager : NSObject
 

@@ -50,15 +50,13 @@
     [view addSubview:subView];
     [subView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.bottom.equalTo(@0);
-        make.left.equalTo(@10);
-        make.right.equalTo(@(-10));
-        make.height.mas_equalTo(100);
+        make.left.equalTo(@0);
+        make.right.equalTo(@(0));
+        make.height.mas_equalTo(314);
     }];
-    [[GNRAlertController alertCustomContentView:view actions:@[cancel,confirm]] show];
-    
-    
-    
-    
+    GNRAlertController * alertController = [GNRAlertController alertCustomContentView:view actions:nil];
+    alertController.config.width_containerView = 251;
+    [alertController show];
 }
 
 - (void)didReceiveMemoryWarning

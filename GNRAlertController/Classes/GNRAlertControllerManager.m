@@ -6,6 +6,7 @@
 //
 
 #import "GNRAlertControllerManager.h"
+#import <GNRAlertController/GNRAlertController.h>
 
 @interface GNRAlertControllerManager()
 @property (nonatomic, strong)NSMutableArray *alerts;
