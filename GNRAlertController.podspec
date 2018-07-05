@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GNRAlertController'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = '一款简单的Alert组件，支持自定义视图'
 
 # This description is used to generate tags and improve search results.

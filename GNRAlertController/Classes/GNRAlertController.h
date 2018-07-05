@@ -32,4 +32,7 @@
 
 - (void)dismiss;
 
+//dismiss动画结束之后
+- (void)dismissAnimationCompletion:(void (^)(void))completion;
+
 @end
