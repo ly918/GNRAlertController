@@ -33,7 +33,6 @@
 		485F86F4857CE4790CC936477FA97826 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE3BC801524BAB7731C3955C410DEC6 /* Masonry.framework */; };
 		4904EBF28F14E560224AF1A3B6077E74 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 890F2453CB0B3C4990E14FE46AF49D21 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		4B4A1F33306245BDD23F20BF513B840A /* GNRAlertControllerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A85E76DB751272E30B990AAF8EA2EA /* GNRAlertControllerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BC9363F1D13411F862124020E70B9CE /* Pods-GNRAlertController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F55C884EEE37E7B28EBF94AE1F2A7835 /* Pods-GNRAlertController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CE1C473272899A977FA11B93885F9C6 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F13D5B31D2F97EE965D202ABE6D60D /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D7B75520742B10BD2B3135B1A73D75D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1B939E7C6A823F54718B59B8DED24C /* MapKit.framework */; };
 		4E41B0F12EB7FF19278663F741205E1A /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDE03953339CF0C047B60A258B8303E /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,13 +42,13 @@
 		541F000E6BE4AF71D70650935D63AEB6 /* GNRAlertContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB7A65B92CC805535B49B72EDA4300BD /* GNRAlertContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		579598CBCEAC317E3EC3E532CDEDEC76 /* CALayer+Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DEAB7039A6134053A0D9CB821C42A4C /* CALayer+Factory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		588593D9836B0B3506A0733D3594957C /* NSObject+TKObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C3789235AADB601214236CCD6B660E2 /* NSObject+TKObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5905E87A5B8E388AA7588AAEC5A2C1D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BE5650728915161E7C05D573514319 /* Foundation.framework */; };
 		5B16F8C23B80DC5321C26251F103C5A8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F820662FFCC8A9A063E96978FE0F3CFC /* MASLayoutConstraint.m */; };
 		5DAC7822E344708FF1AE69B7313C686F /* GNRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D05ED9AD925A376DCC64090EFFA9E52 /* GNRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64950A8DDC13FD291C2F1F2229BAFCD9 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B9AC1C3D5F76A0ED3C3B1DBA2FD3C0 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64F55F64AB0323F910DC3E0157E8274F /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E77EE472B1D07E4FE3AB015C698991 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = C74211EDB30BDBA86985C3339F84653C /* UIImage+Compare.m */; };
 		6AB9CCED71FFB400835BB5DD0B7C7E58 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C87DFCA7EF9C0249BC9590967AEF18E /* MASViewAttribute.m */; };
+		720CCBDA04A00388FF9621F433E38F22 /* Pods-GNRAlertController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F06A182300D94B7E023408F8CC6FFF66 /* Pods-GNRAlertController_Tests-dummy.m */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3553865FA07FBF1F8698F9CFBC27C8EF /* UIImage+Snapshot.m */; };
 		76455EBAF2EB2EA18B52AE80FFCD49A4 /* GNRAlertControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6EFCAB8FBB7EB37B84BD0041FD55FC /* GNRAlertControllerManager.m */; };
 		7B93B69E11C4241E904426D44CB1F5A8 /* GNRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893B7B698DC59DD74E6BC5DB2E4105A7 /* GNRFoundation.framework */; };
@@ -58,6 +57,7 @@
 		7FCE2B64062DD4867649868CEEC6EE82 /* GNRAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6615C639D32B5611AB7B7873CCC04B17 /* GNRAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8098B0550428A022C50687C92D3032CD /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B87EFDBF7A8E4029C140AC5C4B7305C4 /* Masonry-dummy.m */; };
 		83303D0D326C40D74F7112A34EE5F7E7 /* UIImage+Fix.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFB48009D3596001E9D42981820C922 /* UIImage+Fix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83776B2C14412A44895E1774B349A2A2 /* Pods-GNRAlertController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F55C884EEE37E7B28EBF94AE1F2A7835 /* Pods-GNRAlertController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CF20E184B1FC343126ED4A676B40EE /* UIKit.framework */; };
 		846B16650FAD1A90B464990A425326AB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF841FAE3E009F0DFC82DA68E182B34 /* MASConstraint.m */; };
 		8BED579D35F9906756512B9ADEA48F21 /* UIView+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4CB2C347C3F4FCFCFEE791950FC28 /* UIView+Factory.m */; };
@@ -87,7 +87,7 @@
 		C569B10AC71290DFCC7418098C77A29B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BE5650728915161E7C05D573514319 /* Foundation.framework */; };
 		C59A58E31E1EB7F3160B4A59BBF7DB95 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F743938CC2294604B298C80D6795D8 /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 544F27755B5DEA2B3E2B0CDE0CA9ACA3 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		CFA8A4E7FE8F332B174E09D9122922F4 /* Pods-GNRAlertController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F06A182300D94B7E023408F8CC6FFF66 /* Pods-GNRAlertController_Tests-dummy.m */; };
+		D0E1F2D994B74BEB27C5131CF467E1C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BE5650728915161E7C05D573514319 /* Foundation.framework */; };
 		D32DE656AAC839F58F13CFEBC1A54E7B /* UIBarButtonItem+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D6E5461DF99ED19848AAE38A576C8D /* UIBarButtonItem+Factory.m */; };
 		D40C2D710431C307581F84FCE317382B /* UIImage+Fix.m in Sources */ = {isa = PBXBuildFile; fileRef = B9572A827171A69E2DC65F717D2D3A64 /* UIImage+Fix.m */; };
 		D7124944C6717E9EBE4731DF6FD72D09 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F8AAEF2D28CC387D5CBB75A41D5BDA /* UIColor+Hex.m */; };
@@ -126,6 +126,13 @@
 			remoteGlobalIDString = 206FD1F038494377AC580193DE245110;
 			remoteInfo = Masonry;
 		};
+		98D61156C61067415BF0D23CF93F7DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
+			remoteInfo = FBSnapshotTestCase;
+		};
 		C0795D268BECD4DA6F8601A16C596D37 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -133,19 +140,19 @@
 			remoteGlobalIDString = F7F1445412DB1C76B3CD18611F24E4B9;
 			remoteInfo = GNRAlertController;
 		};
+		C341748DF9C6B3C8EDE3A17ED6FCD1AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 513920608BBD704DBBF689F93AE613AF;
+			remoteInfo = "Pods-GNRAlertController_Example";
+		};
 		CB641AF28C7A1D5EC2A04AE26DAA553D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B1BBC6F9DB9A3111C34C81B13CDC1196;
 			remoteInfo = GNRFoundation;
-		};
-		E54BDE52F6E6990A59CD4E34BF18D137 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
-			remoteInfo = FBSnapshotTestCase;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -294,14 +301,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7895A45C479C66D432989252342F4349 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5905E87A5B8E388AA7588AAEC5A2C1D6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		82B3F919218B437A4225093FD9C3CAB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,6 +335,14 @@
 			files = (
 				E3BD02117A69C0A95D33AA3E966C002D /* Foundation.framework in Frameworks */,
 				B1E1C5C619E5B5BC414C7DFBA4763A00 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E055109C0E47C5F38149B7DBF69FB21D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E1F2D994B74BEB27C5131CF467E1C3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,14 +650,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		08A33162483C673CB7F42F1B012A9974 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4BC9363F1D13411F862124020E70B9CE /* Pods-GNRAlertController_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3593D2DDAE2E72D588EBF9B217648B1A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -703,6 +702,14 @@
 				A2D6917B0A398D53EA5A6BFCA8AEB987 /* View+MASAdditions.h in Headers */,
 				06C6B9C77FE526C11FF27DB5DCFFE7CF /* View+MASShorthandAdditions.h in Headers */,
 				2341F9A7AD567B342E15411034EF2B50 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBD3B0C25C3024CB1EA3D01327843DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83776B2C14412A44895E1774B349A2A2 /* Pods-GNRAlertController_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -785,6 +792,25 @@
 			productReference = 0F602430AB801257368F014E86C1DAE0 /* Pods_GNRAlertController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		8C86EA9E2DB304734232DDE0D1494FCA /* Pods-GNRAlertController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B6930A4884EC1093A614295643CAC0D /* Build configuration list for PBXNativeTarget "Pods-GNRAlertController_Tests" */;
+			buildPhases = (
+				81E2C8693E53A90576E213EB1651A14D /* Sources */,
+				E055109C0E47C5F38149B7DBF69FB21D /* Frameworks */,
+				CCBD3B0C25C3024CB1EA3D01327843DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C03345BD7C7183803CAF900034493C2F /* PBXTargetDependency */,
+				63D235A6689D3321BFE785D7EC64FF3A /* PBXTargetDependency */,
+			);
+			name = "Pods-GNRAlertController_Tests";
+			productName = "Pods-GNRAlertController_Tests";
+			productReference = 119EE568003987034825999722283358 /* Pods_GNRAlertController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B1BBC6F9DB9A3111C34C81B13CDC1196 /* GNRFoundation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4DADDC0B8165EC28A9D81513D914444 /* Build configuration list for PBXNativeTarget "GNRFoundation" */;
@@ -800,24 +826,6 @@
 			name = GNRFoundation;
 			productName = GNRFoundation;
 			productReference = FA4AD32CD8855DAE4398B418290A565C /* GNRFoundation.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BB5487EFB509FF2E098B7ADF7FCEFB2C /* Pods-GNRAlertController_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9653043A5D9CB5CF4E27B64E0946A203 /* Build configuration list for PBXNativeTarget "Pods-GNRAlertController_Tests" */;
-			buildPhases = (
-				DB44FDE5D46366DD0FD6662750F1FEB1 /* Sources */,
-				7895A45C479C66D432989252342F4349 /* Frameworks */,
-				08A33162483C673CB7F42F1B012A9974 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EBC4AE118AF83A4AB401EDBFCEDF76CD /* PBXTargetDependency */,
-			);
-			name = "Pods-GNRAlertController_Tests";
-			productName = "Pods-GNRAlertController_Tests";
-			productReference = 119EE568003987034825999722283358 /* Pods_GNRAlertController_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F7F1445412DB1C76B3CD18611F24E4B9 /* GNRAlertController */ = {
@@ -865,7 +873,7 @@
 				B1BBC6F9DB9A3111C34C81B13CDC1196 /* GNRFoundation */,
 				206FD1F038494377AC580193DE245110 /* Masonry */,
 				513920608BBD704DBBF689F93AE613AF /* Pods-GNRAlertController_Example */,
-				BB5487EFB509FF2E098B7ADF7FCEFB2C /* Pods-GNRAlertController_Tests */,
+				8C86EA9E2DB304734232DDE0D1494FCA /* Pods-GNRAlertController_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -913,6 +921,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81E2C8693E53A90576E213EB1651A14D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720CCBDA04A00388FF9621F433E38F22 /* Pods-GNRAlertController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C21F9DE8FEFA2506F151E13F807805F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -924,14 +940,6 @@
 				AC431E372DF675F2A01311802D7BE4CD /* GNRAlertController.m in Sources */,
 				1EF791FFB238405ED2830BB66B7F25E9 /* GNRAlertControllerConfig.m in Sources */,
 				76455EBAF2EB2EA18B52AE80FFCD49A4 /* GNRAlertControllerManager.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB44FDE5D46366DD0FD6662750F1FEB1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CFA8A4E7FE8F332B174E09D9122922F4 /* Pods-GNRAlertController_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -972,6 +980,12 @@
 			target = 206FD1F038494377AC580193DE245110 /* Masonry */;
 			targetProxy = 74E4255C7F4C3E97686435555F8CB8C6 /* PBXContainerItemProxy */;
 		};
+		63D235A6689D3321BFE785D7EC64FF3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GNRAlertController_Example";
+			target = 513920608BBD704DBBF689F93AE613AF /* Pods-GNRAlertController_Example */;
+			targetProxy = C341748DF9C6B3C8EDE3A17ED6FCD1AD /* PBXContainerItemProxy */;
+		};
 		79C88D28108A61E53325E39EEBB372B1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GNRFoundation;
@@ -984,15 +998,50 @@
 			target = F7F1445412DB1C76B3CD18611F24E4B9 /* GNRAlertController */;
 			targetProxy = C0795D268BECD4DA6F8601A16C596D37 /* PBXContainerItemProxy */;
 		};
-		EBC4AE118AF83A4AB401EDBFCEDF76CD /* PBXTargetDependency */ = {
+		C03345BD7C7183803CAF900034493C2F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
-			targetProxy = E54BDE52F6E6990A59CD4E34BF18D137 /* PBXContainerItemProxy */;
+			targetProxy = 98D61156C61067415BF0D23CF93F7DF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		02D76897F22390EDC644EA3CD670A6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C2BE8B353731FCA070952FD0828BF97 /* Pods-GNRAlertController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GNRAlertController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GNRAlertController_Tests/Pods-GNRAlertController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1154,41 +1203,6 @@
 			};
 			name = Release;
 		};
-		50FAB3106900A0B55DDEFC3788CB327F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C2BE8B353731FCA070952FD0828BF97 /* Pods-GNRAlertController_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GNRAlertController_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GNRAlertController_Tests/Pods-GNRAlertController_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5904033EB1A0F4F638C9B8561AD2D0E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBCD02FB1461C9B8E03262B849A5A48E /* GNRAlertController.xcconfig */;
@@ -1280,6 +1294,41 @@
 			};
 			name = Debug;
 		};
+		92DDABB7E469E615D6F2ED8C08A3C773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A9C6369A5993A830B41B33177BB27C /* Pods-GNRAlertController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GNRAlertController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GNRAlertController_Tests/Pods-GNRAlertController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		9801FB76342D6D63D3E57D5FB3EC7714 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBDCCA8AE4E0932CCE19E654957539CF /* Masonry.xcconfig */;
@@ -1335,41 +1384,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AB1FB4F70706316E2D98DA56D2EE023A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34A9C6369A5993A830B41B33177BB27C /* Pods-GNRAlertController_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GNRAlertController_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GNRAlertController_Tests/Pods-GNRAlertController_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1527,20 +1541,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8B6930A4884EC1093A614295643CAC0D /* Build configuration list for PBXNativeTarget "Pods-GNRAlertController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DDABB7E469E615D6F2ED8C08A3C773 /* Debug */,
+				02D76897F22390EDC644EA3CD670A6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		920B317FEE2EB73F56289F7EFD9336FA /* Build configuration list for PBXNativeTarget "Pods-GNRAlertController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				246E4E72B3FCB3082551D7B94DADF1B1 /* Debug */,
 				47B564BEAF5EBD5B4A1E09B518883407 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9653043A5D9CB5CF4E27B64E0946A203 /* Build configuration list for PBXNativeTarget "Pods-GNRAlertController_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB1FB4F70706316E2D98DA56D2EE023A /* Debug */,
-				50FAB3106900A0B55DDEFC3788CB327F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

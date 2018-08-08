@@ -22,7 +22,7 @@
         _cancelFont = [UIFont systemFontOfSize:15];
         _cancelFont = [UIFont systemFontOfSize:15];
         
-        _width_containerView = 240.f;
+        _width_containerView = 270.f;
         _leadingMargin_textLabel = 20.f;
         _topMargin_textLabel = 22.f;
         _bottomMargin_textLabel = 20.f;

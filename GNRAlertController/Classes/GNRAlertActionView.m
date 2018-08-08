@@ -59,8 +59,7 @@ static NSString *GNRAlertControllerActionEnableKeyPath = @"enabled";
         [btn setTitleColor:obj.type==GNRAlertActionTypeCancel?[GNRAlertControllerManager manager].config.cancelTextColor:[GNRAlertControllerManager manager].config.confirmTextColor forState:UIControlStateNormal];
         [btn setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]] forState:UIControlStateNormal];
         [btn setBackgroundImage:[UIImage imageWithColor:[UIColor colorWithHexString:@"#e7e7e7"]] forState:UIControlStateHighlighted];
-        [btn setBackgroundImage:[UIImage imageWithColor:[UIColor groupTableViewBackgroundColor]] forState:UIControlStateDisabled];
-        [btn setTitleColor:[(obj.type==GNRAlertActionTypeCancel?[GNRAlertControllerManager manager].config.cancelTextColor:[GNRAlertControllerManager manager].config.confirmTextColor) colorWithAlphaComponent:0.5] forState:UIControlStateDisabled];
+        [btn setTitleColor:[UIColor colorWithHexString:@"#999999"] forState:UIControlStateDisabled];
 
         [self addSubview:btn];
         

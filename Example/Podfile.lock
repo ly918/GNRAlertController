@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - GNRAlertController (0.3.0):
+  - GNRAlertController (0.3.2):
     - GNRFoundation
     - Masonry
   - GNRFoundation (0.2.3)
@@ -15,7 +15,7 @@ DEPENDENCIES:
   - GNRAlertController (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - FBSnapshotTestCase
     - GNRFoundation
     - Masonry
@@ -26,10 +26,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GNRAlertController: ba89c3af3a86856648eafe29f3f7585a3f22c385
+  GNRAlertController: d73e481a8514b6f3ff80526d0dd2f6be741db4a4
   GNRFoundation: 0775e3aa0321eb7f70eebec76c90bb16cbea6015
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 74aa96eabe3b72bed2970b501f150d6cdf64508b
 
-COCOAPODS: 1.5.0.beta.1
+COCOAPODS: 1.5.3

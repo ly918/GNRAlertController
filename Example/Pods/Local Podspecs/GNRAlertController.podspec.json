@@ -1,6 +1,6 @@
 {
   "name": "GNRAlertController",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "summary": "一款简单的Alert组件，支持自定义视图",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ly918/GNRAlertController",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ly918/GNRAlertController.git",
-    "tag": "0.3.0"
+    "tag": "0.3.2"
   },
   "platforms": {
     "ios": "8.0"
