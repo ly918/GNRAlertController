@@ -40,23 +40,23 @@
 //    [[GNRAlertController alertTitle:@"标题标题标题标题标题标题标题" message:nil actions:@[cancel,confirm]] show];
     
     //高亮文本
-//    [[GNRAlertController alertTitle:@"2S后可以取消" message:@"提示提示提示提示提TB示提示提示提示提示提示" attributeTitleSubStrArr:nil attributeMessageSubStrArr:@[@"TB"] attributeTextColor:[UIColor orangeColor] actions:@[cancel,confirm]]show];
+    [[GNRAlertController alertTitle:@"2S后可以取消" message:@"提示提示提示提示提TB示提示提示提示提示提示" attributeTitleSubStrArr:nil attributeMessageSubStrArr:@[@"TB"] attributeTextColor:[UIColor orangeColor] actions:@[cancel,confirm]]show];
     
     //自定义UI
-    UIView *view = [[UIView alloc]init];
-    view.backgroundColor = [UIColor redColor];
-    UIView *subView = [[UIView alloc]init];
-    subView.backgroundColor = [UIColor greenColor];
-    [view addSubview:subView];
-    [subView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.bottom.equalTo(@0);
-        make.left.equalTo(@0);
-        make.right.equalTo(@(0));
-        make.height.mas_equalTo(314);
-    }];
-    GNRAlertController * alertController = [GNRAlertController alertCustomContentView:view actions:nil];
-    alertController.config.width_containerView = 251;
-    [alertController show];
+//    UIView *view = [[UIView alloc]init];
+//    view.backgroundColor = [UIColor redColor];
+//    UIView *subView = [[UIView alloc]init];
+//    subView.backgroundColor = [UIColor greenColor];
+//    [view addSubview:subView];
+//    [subView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.bottom.equalTo(@0);
+//        make.left.equalTo(@0);
+//        make.right.equalTo(@(0));
+//        make.height.mas_equalTo(314);
+//    }];
+//    GNRAlertController * alertController = [GNRAlertController alertCustomContentView:view actions:nil];
+//    alertController.config.width_containerView = 251;
+//    [alertController show];
 }
 
 - (void)didReceiveMemoryWarning
