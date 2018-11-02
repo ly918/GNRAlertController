@@ -8,15 +8,16 @@
 #import "GNRAlertController.h"
 #import <GNRAlertController/GNRAlertContentView.h>
 #import <GNRAlertController/GNRAlertActionView.h>
-
 #import <Masonry/Masonry.h>
 #import <GNRFoundation/UIView+Factory.h>
 #import <GNRFoundation/NSObject+TKObject.h>
 
 @interface GNRAlertController ()
+
 @property (nonatomic, strong)NSString *alertID;
 //container
 @property (nonatomic,strong)UIView *containerView;
+@property (nonatomic,strong)UIVisualEffectView *blurView;
 
 //content
 @property (nonatomic,strong)UIView *contentSuperView;
@@ -25,6 +26,8 @@
 //action
 @property (nonatomic,strong)UIView *actionSuperView;
 @property (nonatomic,strong)GNRAlertActionView *actionView;
+
+@property (nonatomic,strong)UIButton *closeBtn;
 
 @property (nonatomic, strong)NSArray <GNRAlertAction *>*actions;
 
@@ -97,12 +100,10 @@
 }
 
 - (void)showAnimated:(BOOL)animated{
-    self.view.backgroundColor = [UIColor colorWithWhite:0 alpha:0];
     self.containerView.alpha = 0;
     self.containerView.transform = CGAffineTransformMakeScale(1.2, 1.2);
     [UIView animateWithDuration:animated?0.3:0 animations:^{
         self.containerView.alpha = 1;
-        self.view.backgroundColor = [UIColor colorWithWhite:0 alpha:0.5];
         self.containerView.transform = CGAffineTransformMakeScale(1, 1);
     } completion:^(BOOL finished) {
         
@@ -121,7 +122,6 @@
 
 - (void)dismissAnimationCompletion:(void (^)(void))completion{
     [UIView animateWithDuration:0.2 animations:^{
-        self.view.backgroundColor = [UIColor colorWithWhite:0 alpha:0];
         self.containerView.alpha = 0;
     } completion:^(BOOL finished) {
         [self dismissViewControllerAnimated:NO completion:^{
@@ -166,12 +166,15 @@
     
     [self.actionSuperView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.bottom.equalTo(@0);
-        make.height.equalTo(@(self.actions.count?self.config.height_button:0));
+        make.height.equalTo(@(self.actions.count?self.config.height_actionView:0));
     }];
     
     [self.actionView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(@0);
     }];
+    
+    self.closeBtn.hidden = ![GNRAlertControllerManager manager].config.closeBtnImg;
+    [self.closeBtn setImage:[GNRAlertControllerManager manager].config.closeBtnImg forState:UIControlStateNormal];
     
     __weak typeof(self) wself = self;
     self.actionView.actionBlock = ^(GNRAlertAction *action) {
@@ -187,14 +190,21 @@
     }];
 }
 
+- (void)closeBtnAction{
+    [self dismiss];
+}
+
 //MARK: - Getter
 - (UIView *)containerView{
     if (!_containerView) {
         _containerView = [[UIView alloc]init];
         _containerView.clipsToBounds = YES;
-        _containerView.layer.cornerRadius = 6;
+        _containerView.layer.cornerRadius = 20;
         _containerView.layer.masksToBounds = YES;
-        _containerView.backgroundColor = [UIColor whiteColor];
+        [_containerView addSubview:self.blurView];
+        [self.blurView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.edges.equalTo(@0);
+        }];
     }
     return _containerView;
 }
@@ -218,6 +228,27 @@
         _actionSuperView = [[UIView alloc]init];
     }
     return _actionSuperView;
+}
+
+- (UIVisualEffectView *)blurView{
+    if (!_blurView) {
+        _blurView = [[UIVisualEffectView alloc]initWithEffect:[UIBlurEffect effectWithStyle:UIBlurEffectStyleDark]];
+        _blurView.contentView.backgroundColor = [GNRAlertControllerManager manager].config.bgColor;
+    }
+    return _blurView;
+}
+
+- (UIButton *)closeBtn{
+    if (!_closeBtn) {
+        _closeBtn = [UIView buttonWithTitle:nil image:nil target:self action:@selector(closeBtnAction)];
+        [self.containerView addSubview:_closeBtn];
+        [self.containerView bringSubviewToFront:_closeBtn];
+        [_closeBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.right.top.equalTo(@0);
+            make.width.height.equalTo(@55);
+        }];
+    }
+    return _closeBtn;
 }
 
 - (void)didReceiveMemoryWarning {

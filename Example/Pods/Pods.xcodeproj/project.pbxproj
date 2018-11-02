@@ -7,152 +7,152 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04AE5A01F015406A79809D552FF2BDEF /* GNRFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C32E4750BB2875A629384503A0C0B68E /* GNRFoundation-dummy.m */; };
-		04DB66B6B43893667A732678404B4E81 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C7B33E35C2D8B3D41FBDB5943A33E /* MASConstraintMaker.m */; };
-		04ECD89C5DCEEAD98B8A931C03C795E8 /* GNRFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF8787E0A7757FF72EDE32E4BAECF20 /* GNRFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = D67931A7A3196C42EC6F937300F81078 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		061FAFE56CBEA28FC513BD9F301E9DEA /* GNRAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF7FEF451F0B3A97A5C960A4972324 /* GNRAlertAction.m */; };
-		06C6B9C77FE526C11FF27DB5DCFFE7CF /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 774264E12DF47F8058C931AA1FB9F334 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0892EC82B194BA2AA4A7ADEAF3B40B01 /* UIView+GNRSafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F720884152FB4628FAC727BFEA0062 /* UIView+GNRSafeArea.m */; };
-		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAD7C449C5533F3565A686EDD6BA15E /* UIApplication+StrictKeyWindow.m */; };
-		16D19B9AB8FC44887E53B26E4D9ABFEB /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3AC890DC0ED3B0680D5821CED21AAA /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17735B4F9FAF4EDC640B285E3AA054D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8EC26BE23AE8EFEEF79D1384C784C9 /* Foundation.framework */; };
-		1807A9A980BF52D5FF33A8C34B75C37E /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 82ADE9432B18B71948DAD52664C60C8C /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18EA4E0D8B74F2B2BBF8F39B49F49BF9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B312FEEA44B6FBCC1A296A1527BBA7 /* XCTest.framework */; };
-		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFDDB9B91CE7ACDB4641AB81D209B9 /* SwiftSupport.swift */; };
-		1C2A74397C647A1C613CEFEBE5EF1805 /* UIView+Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = B10BE9DE6E4059F7D37A4A264C7F830D /* UIView+Factory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C8F77E87816CC8955F5B29FECF6B84A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8EC26BE23AE8EFEEF79D1384C784C9 /* Foundation.framework */; };
-		1EF791FFB238405ED2830BB66B7F25E9 /* GNRAlertControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3AB1DA21E929AE3268873482C40E1F /* GNRAlertControllerConfig.m */; };
-		2156846911B8AFBD372DE469DAEA11A8 /* Pods-GNRAlertController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E9344E5A65086010FB6196B1D23919 /* Pods-GNRAlertController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		224472E548A1E6C905A5CF1A7A89C43A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8EC26BE23AE8EFEEF79D1384C784C9 /* Foundation.framework */; };
-		2341F9A7AD567B342E15411034EF2B50 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CFAFE3222BC3E60EB4632ABB9D8FF05 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BD9CA800C44766D397EA6A323AC85A0 /* GNRAlertContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D3B11BF255BB86412BBBFC4185BB4C /* GNRAlertContentView.m */; };
-		2DF35490BD83B066D5C8EF105C6F198C /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 686CDA691A2E3694106E403081927074 /* View+MASAdditions.m */; };
-		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 650D2C4937983067C276EB08BC4E451F /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 5727CCFFB8BCA2480EFA5F089655AEDD /* UIImage+Diff.m */; };
-		39415346D24C9D6A1E26D920AD728259 /* NSObject+TKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A07AE3A2876BA3329585A10565745703 /* NSObject+TKObject.m */; };
-		405F0FD42BCE131A5EE798B5A91246E9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4655B1006B21F02B345F77ECBF925153 /* MapKit.framework */; };
-		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B38E4A5B4CF02F21CB305CA2FB2E746 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		433AB7FCE919574EB4485A3A1E650DB8 /* GNRAlertActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6330698A486AA9C8C3AE7A8729D4FD6E /* GNRAlertActionView.m */; };
-		47DEE95708BDBD11436162D166CD192E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D255A8F498577EBFC0B3E0683C583108 /* UIKit.framework */; };
-		485F86F4857CE4790CC936477FA97826 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE3BC801524BAB7731C3955C410DEC6 /* Masonry.framework */; };
-		4904EBF28F14E560224AF1A3B6077E74 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 890F2453CB0B3C4990E14FE46AF49D21 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		4B4A1F33306245BDD23F20BF513B840A /* GNRAlertControllerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A85E76DB751272E30B990AAF8EA2EA /* GNRAlertControllerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CE1C473272899A977FA11B93885F9C6 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F13D5B31D2F97EE965D202ABE6D60D /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E41B0F12EB7FF19278663F741205E1A /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDE03953339CF0C047B60A258B8303E /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FD3DF3004AF730E12B3E0B8CC003453 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D255A8F498577EBFC0B3E0683C583108 /* UIKit.framework */; };
-		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7C29AA6516FB18A6E565E20BAC361B /* FBSnapshotTestCase-dummy.m */; };
-		53F827BB92F6AEF7D1128457DAC34E1F /* NSString+FirstLetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A56734B216D7E80B3B86766EBDDBAC /* NSString+FirstLetter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		541F000E6BE4AF71D70650935D63AEB6 /* GNRAlertContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB7A65B92CC805535B49B72EDA4300BD /* GNRAlertContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		579598CBCEAC317E3EC3E532CDEDEC76 /* CALayer+Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DEAB7039A6134053A0D9CB821C42A4C /* CALayer+Factory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		588593D9836B0B3506A0733D3594957C /* NSObject+TKObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C3789235AADB601214236CCD6B660E2 /* NSObject+TKObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B16F8C23B80DC5321C26251F103C5A8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F820662FFCC8A9A063E96978FE0F3CFC /* MASLayoutConstraint.m */; };
-		5BC12F69E33ABA27B9E0B78128CE336D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6A3948DFC129D5FEC389E5939F1B7D /* QuartzCore.framework */; };
-		5DAC7822E344708FF1AE69B7313C686F /* GNRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D05ED9AD925A376DCC64090EFFA9E52 /* GNRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E4F5E8D8798977C6698162AA628A3B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D255A8F498577EBFC0B3E0683C583108 /* UIKit.framework */; };
-		64950A8DDC13FD291C2F1F2229BAFCD9 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B9AC1C3D5F76A0ED3C3B1DBA2FD3C0 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64F55F64AB0323F910DC3E0157E8274F /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E77EE472B1D07E4FE3AB015C698991 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = C74211EDB30BDBA86985C3339F84653C /* UIImage+Compare.m */; };
-		6AB9CCED71FFB400835BB5DD0B7C7E58 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C87DFCA7EF9C0249BC9590967AEF18E /* MASViewAttribute.m */; };
-		6C3E8D902943A0CC4E7CA893C0C8F5AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8EC26BE23AE8EFEEF79D1384C784C9 /* Foundation.framework */; };
-		720CCBDA04A00388FF9621F433E38F22 /* Pods-GNRAlertController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F06A182300D94B7E023408F8CC6FFF66 /* Pods-GNRAlertController_Tests-dummy.m */; };
-		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3553865FA07FBF1F8698F9CFBC27C8EF /* UIImage+Snapshot.m */; };
-		76455EBAF2EB2EA18B52AE80FFCD49A4 /* GNRAlertControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6EFCAB8FBB7EB37B84BD0041FD55FC /* GNRAlertControllerManager.m */; };
-		7B93B69E11C4241E904426D44CB1F5A8 /* GNRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893B7B698DC59DD74E6BC5DB2E4105A7 /* GNRFoundation.framework */; };
-		7ECBB09F44D5466ECD95B08511A3FF49 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A766E9DD68AF80EB58BE29619602E5D /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FCE2B64062DD4867649868CEEC6EE82 /* GNRAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6615C639D32B5611AB7B7873CCC04B17 /* GNRAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8098B0550428A022C50687C92D3032CD /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B87EFDBF7A8E4029C140AC5C4B7305C4 /* Masonry-dummy.m */; };
-		83303D0D326C40D74F7112A34EE5F7E7 /* UIImage+Fix.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFB48009D3596001E9D42981820C922 /* UIImage+Fix.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83776B2C14412A44895E1774B349A2A2 /* Pods-GNRAlertController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F55C884EEE37E7B28EBF94AE1F2A7835 /* Pods-GNRAlertController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		846B16650FAD1A90B464990A425326AB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF841FAE3E009F0DFC82DA68E182B34 /* MASConstraint.m */; };
-		8BED579D35F9906756512B9ADEA48F21 /* UIView+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4CB2C347C3F4FCFCFEE791950FC28 /* UIView+Factory.m */; };
-		8E1AA3B6164C32E8836A3054E76A542B /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB2387DCBE003DC229025BA43128DC /* NSArray+MASAdditions.m */; };
-		95F677379897DAFC26B2FAC374D81CC3 /* GNRAlertActionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C19E4F6D2D0A92B30E8A0F507AE5DE2 /* GNRAlertActionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		965E13EFC591CAF28CC5BFC69080CE02 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC958DDD40E1D4978638F7DF5BAB5A /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E2F5EA67CD42A01412C1482B13C39D7 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96A5538C8D2FEAF59DF91FF72CD94108 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8EC26BE23AE8EFEEF79D1384C784C9 /* Foundation.framework */; };
-		99EB2723635B7956A0D8AA9B410B744F /* UIBarButtonItem+Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = 35FD0A92ACF1D9F4484BB10EC309CF78 /* UIBarButtonItem+Factory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B4E14CCC1514BA67229BCDE5039200F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96573B7CCE4F6846D09C397B83312A09 /* ViewController+MASAdditions.m */; };
-		A0292259EECD4FA937135650B634ADFB /* CALayer+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4BE5168C14BDDE6109507F3B2A9471 /* CALayer+Factory.m */; };
-		A2D6917B0A398D53EA5A6BFCA8AEB987 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F74025C217D534D75C0C03DBB72EAA /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1F165BD8D89DEF332E9EEED5C538F4 /* FBSnapshotTestController.m */; };
-		AB8271FED894CDB1102BF29A7376D030 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 034BA5B0FBDDA770C1E4F82DF6E03FCD /* MASCompositeConstraint.m */; };
-		AC431E372DF675F2A01311802D7BE4CD /* GNRAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905FBFCD19707B1F59EA2894B297B9D9 /* GNRAlertController.m */; };
-		B0AE5BD13F7D05F49628997A41D45039 /* GNRAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A0BC5E04185E13EE54E62789C9D32C /* GNRAlertController-dummy.m */; };
-		B429CC9F942359C3BEFC88130B808AAC /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A09054041062AE6DF80F85E04D19D39 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D136AF77B798D8F8A11FE01DCC5658E /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9941449DC4ED8506DFA016888AD24C8 /* GNRAlertAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA0E8183A0A6BA748565F4DE0329D24 /* GNRAlertAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC90377563BC0EA17B2B5FE221BA96E /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D084FE4D33BACB7BAA9317D8BB2AF4A /* FBSnapshotTestCase.m */; };
-		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = A90F12F035637883F631C256F6CD31CA /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C99171A18A3DD06F1F68AE89BBFCFF /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A43CB5329185345F199BF55B5C6F94 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3804414E92376437697BDABC3E5B6EC /* GNRAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C7A32AE9934E77873B261DD26CA652 /* GNRAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C59A58E31E1EB7F3160B4A59BBF7DB95 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F743938CC2294604B298C80D6795D8 /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 544F27755B5DEA2B3E2B0CDE0CA9ACA3 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D32DE656AAC839F58F13CFEBC1A54E7B /* UIBarButtonItem+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D6E5461DF99ED19848AAE38A576C8D /* UIBarButtonItem+Factory.m */; };
-		D40C2D710431C307581F84FCE317382B /* UIImage+Fix.m in Sources */ = {isa = PBXBuildFile; fileRef = B9572A827171A69E2DC65F717D2D3A64 /* UIImage+Fix.m */; };
-		D7124944C6717E9EBE4731DF6FD72D09 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F8AAEF2D28CC387D5CBB75A41D5BDA /* UIColor+Hex.m */; };
-		D922FEFA07B45CD394CFD07B64181A3C /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5976F999F04A714BB30E957B43F4F47C /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D93795F1671DA79342040A49BD63A5E9 /* NSString+FirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 660D4F9AE389A3E5FF54B5AC17864738 /* NSString+FirstLetter.m */; };
-		DACD79721F20F3CFA40F8E4301798023 /* GNRAlertControllerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 07306FA5763183B284EBB850F44F1310 /* GNRAlertControllerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAD9A0E0F40D3984B78A22F8D3CDAB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8EC26BE23AE8EFEEF79D1384C784C9 /* Foundation.framework */; };
-		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB07F3466567DD9E9A32BE1D92B7F8 /* FBSnapshotTestCasePlatform.m */; };
-		E64FB3B6F5E77185B78FA88B03D3B782 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 449D56EA7AD0DED597FD9C7A86CC8A94 /* MASViewConstraint.m */; };
-		E8D7952EEAD471E3DBC8442B655C293B /* Pods-GNRAlertController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E0ED6D4629E826A9033145C9DF87C /* Pods-GNRAlertController_Example-dummy.m */; };
-		EB5E06E6E8343F6928C6DBB21BC1C50F /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 528DDAD08B54A44B9225EA0D355793FF /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9760F908CF6601DE237BA9920F107A7 /* UIView+GNRSafeArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4BD7CA19763CDA28C4CA9DAE508884 /* UIView+GNRSafeArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEEDFB348C333A5BA44E02CD2004CFC7 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C94C6181AAA9246E195EBD3418E8AF39 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00C92F18CE65C23E3B85B4CE71FBB897 /* NSString+FirstLetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A56734B216D7E80B3B86766EBDDBAC /* NSString+FirstLetter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01C69526D42BBBF2DD3CAFC2DC28BBA7 /* GNRAlertActionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C19E4F6D2D0A92B30E8A0F507AE5DE2 /* GNRAlertActionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0228937014BEF62928C6A5192E314AB3 /* Pods-GNRAlertController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F55C884EEE37E7B28EBF94AE1F2A7835 /* Pods-GNRAlertController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		037ACE4309DB0635DB20157BF858CC28 /* CALayer+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4BE5168C14BDDE6109507F3B2A9471 /* CALayer+Factory.m */; };
+		088B7CA474E7C9E5D7A5AF65FF17B20A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C87DFCA7EF9C0249BC9590967AEF18E /* MASViewAttribute.m */; };
+		09E765FE1D9E67B26F0D8CC4EF52B978 /* UIBarButtonItem+Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = 35FD0A92ACF1D9F4484BB10EC309CF78 /* UIBarButtonItem+Factory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B3D666CD8B4E70AA55FFCF451FD5A97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8EC26BE23AE8EFEEF79D1384C784C9 /* Foundation.framework */; };
+		0C4E2CAB708E1A138BEFB9BADDAF1164 /* GNRAlertAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA0E8183A0A6BA748565F4DE0329D24 /* GNRAlertAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFDDB9B91CE7ACDB4641AB81D209B9 /* SwiftSupport.swift */; };
+		1CAC8C42998900002D758B5B0586B047 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8EC26BE23AE8EFEEF79D1384C784C9 /* Foundation.framework */; };
+		1E10BE4F08DBF182F93A67B8EC9F9C79 /* Pods-GNRAlertController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E9344E5A65086010FB6196B1D23919 /* Pods-GNRAlertController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E7278FE977D9E190768DA4F7FB8C4EB /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C94C6181AAA9246E195EBD3418E8AF39 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22DE628C4C2ABCFDD41F2B500165B6C0 /* NSObject+TKObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C3789235AADB601214236CCD6B660E2 /* NSObject+TKObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		293F9960B08003218B222D258FE77581 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6A3948DFC129D5FEC389E5939F1B7D /* QuartzCore.framework */; };
+		2C2450D48E14537DCD32645D46D01657 /* GNRAlertControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6EFCAB8FBB7EB37B84BD0041FD55FC /* GNRAlertControllerManager.m */; };
+		2D3DA9761CA4BA6A5E425825E1676876 /* GNRAlertControllerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 07306FA5763183B284EBB850F44F1310 /* GNRAlertControllerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FD790469BD76FD5F05DD5FF76137A32 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5976F999F04A714BB30E957B43F4F47C /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35C3D59FA03FEE2B25E835226BF4BDD9 /* CALayer+Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DEAB7039A6134053A0D9CB821C42A4C /* CALayer+Factory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36B23AB5E34D8368DD1A6521F21F4BDA /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF841FAE3E009F0DFC82DA68E182B34 /* MASConstraint.m */; };
+		387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B38E4A5B4CF02F21CB305CA2FB2E746 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4170A30655CA3EA6C7B7FF618305FADE /* GNRAlertActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6330698A486AA9C8C3AE7A8729D4FD6E /* GNRAlertActionView.m */; };
+		459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7C29AA6516FB18A6E565E20BAC361B /* FBSnapshotTestCase-dummy.m */; };
+		49B21F72975A4CE7C3BC09940EBD5716 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB2387DCBE003DC229025BA43128DC /* NSArray+MASAdditions.m */; };
+		4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = C74211EDB30BDBA86985C3339F84653C /* UIImage+Compare.m */; };
+		4CF5865BAF828AB9A7C56F3A1B1C856F /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D136AF77B798D8F8A11FE01DCC5658E /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D600539FC2E29EA7E28A2DA8A8B328C /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = A90F12F035637883F631C256F6CD31CA /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F7BD484FB402A43887E35E364F04D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8EC26BE23AE8EFEEF79D1384C784C9 /* Foundation.framework */; };
+		5615E5FE375D97C706CBA7BE1A34ABD7 /* UIView+GNRSafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F720884152FB4628FAC727BFEA0062 /* UIView+GNRSafeArea.m */; };
+		5734847286A8399CB586960E3E9B5BC1 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC958DDD40E1D4978638F7DF5BAB5A /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 650D2C4937983067C276EB08BC4E451F /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F11850AC143D902DF7CA4A693B70DDC /* UIView+GNRSafeArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4BD7CA19763CDA28C4CA9DAE508884 /* UIView+GNRSafeArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62C535EC60C7FDFECFEE712A1FA5B990 /* GNRAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905FBFCD19707B1F59EA2894B297B9D9 /* GNRAlertController.m */; };
+		63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 544F27755B5DEA2B3E2B0CDE0CA9ACA3 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63EB8B50569875D2AE9ECF42F34BFDAC /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B9AC1C3D5F76A0ED3C3B1DBA2FD3C0 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64D1046D9CD6E66A854D49D85592451B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D255A8F498577EBFC0B3E0683C583108 /* UIKit.framework */; };
+		67BA2269B04D45A7E9F68AC657EBA232 /* Pods-GNRAlertController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E0ED6D4629E826A9033145C9DF87C /* Pods-GNRAlertController_Example-dummy.m */; };
+		6A4A0EDA0421871787B5E86E53F49CB3 /* UIImage+Fix.m in Sources */ = {isa = PBXBuildFile; fileRef = B9572A827171A69E2DC65F717D2D3A64 /* UIImage+Fix.m */; };
+		6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB07F3466567DD9E9A32BE1D92B7F8 /* FBSnapshotTestCasePlatform.m */; };
+		6BA6EE637BB4A0774969286D98F852A7 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F743938CC2294604B298C80D6795D8 /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DE038BFBB88923E7AB598661687238C /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C7B33E35C2D8B3D41FBDB5943A33E /* MASConstraintMaker.m */; };
+		6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D084FE4D33BACB7BAA9317D8BB2AF4A /* FBSnapshotTestCase.m */; };
+		73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = D67931A7A3196C42EC6F937300F81078 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		78181C6580E17CC23BD1FA9BC37C2443 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96573B7CCE4F6846D09C397B83312A09 /* ViewController+MASAdditions.m */; };
+		7B5B3902DE66E2E08EF970EFB3E7D0F2 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3AC890DC0ED3B0680D5821CED21AAA /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CA107DA94F8ED625CAB932B89A476E5 /* GNRAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C7A32AE9934E77873B261DD26CA652 /* GNRAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D885497DC08ADB23DF496BDCA368C9B /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F8AAEF2D28CC387D5CBB75A41D5BDA /* UIColor+Hex.m */; };
+		7DA521F071E8D872087AA6022E0D64C3 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F74025C217D534D75C0C03DBB72EAA /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F52FD3072F9262335B0771D7E0D7E14 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E77EE472B1D07E4FE3AB015C698991 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80FB84948CC553C81BE88ADA2EBE6555 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D255A8F498577EBFC0B3E0683C583108 /* UIKit.framework */; };
+		827C3C014A20BD1ADA171CDB10E0B88A /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 82ADE9432B18B71948DAD52664C60C8C /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DCA447772AE9F300809F156BD56358 /* GNRFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D05ED9AD925A376DCC64090EFFA9E52 /* GNRFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85208E7B5838CC4BF1C3A4A0D2A435DE /* GNRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893B7B698DC59DD74E6BC5DB2E4105A7 /* GNRFoundation.framework */; };
+		85E1ABDA182E47509159D068E2E9501D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8EC26BE23AE8EFEEF79D1384C784C9 /* Foundation.framework */; };
+		866D3F40B4F0591142B89B9486123237 /* UIImage+Fix.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CFB48009D3596001E9D42981820C922 /* UIImage+Fix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A3BC9D4BBED4067EED9C9999A620D2A /* GNRFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF8787E0A7757FF72EDE32E4BAECF20 /* GNRFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CCDC0472B12DD1518CEB455E418614D /* UIBarButtonItem+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D6E5461DF99ED19848AAE38A576C8D /* UIBarButtonItem+Factory.m */; };
+		9261804485B8D255510835F85C8E2BA5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 890F2453CB0B3C4990E14FE46AF49D21 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		93987A7F05C06AF2FF380C1662B745E6 /* GNRAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6615C639D32B5611AB7B7873CCC04B17 /* GNRAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9786A3684A3F7A758B5C2996AE85EE55 /* Pods-GNRAlertController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F06A182300D94B7E023408F8CC6FFF66 /* Pods-GNRAlertController_Tests-dummy.m */; };
+		9BD84298E16CF241BFA8211ABE18D199 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B87EFDBF7A8E4029C140AC5C4B7305C4 /* Masonry-dummy.m */; };
+		9E45BEFE59B02FE7B91A464A4915D65C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B312FEEA44B6FBCC1A296A1527BBA7 /* XCTest.framework */; };
+		9FCD661092E0138683455A41C7005431 /* GNRFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C32E4750BB2875A629384503A0C0B68E /* GNRFoundation-dummy.m */; };
+		A5D62802BB6A8A78BB47FCB03DFE7A6E /* NSString+FirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 660D4F9AE389A3E5FF54B5AC17864738 /* NSString+FirstLetter.m */; };
+		A5E8AFCDB1CAF8394229CBE7CFE7D42F /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A766E9DD68AF80EB58BE29619602E5D /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF99254AFABAEB34A4DC22AE2A97094 /* UIView+Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = B10BE9DE6E4059F7D37A4A264C7F830D /* UIView+Factory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF6632EA53ED96C6D0716062F4E104D4 /* GNRAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFF7FEF451F0B3A97A5C960A4972324 /* GNRAlertAction.m */; };
+		AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAD7C449C5533F3565A686EDD6BA15E /* UIApplication+StrictKeyWindow.m */; };
+		B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E2F5EA67CD42A01412C1482B13C39D7 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0F03D582CB0C33EAC6D62DDDC3433EC /* NSObject+TKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A07AE3A2876BA3329585A10565745703 /* NSObject+TKObject.m */; };
+		B37EBE83103361278F2996BF8B15088D /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F13D5B31D2F97EE965D202ABE6D60D /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B535A2BD5F6AE8D16B556AE32D23C602 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 774264E12DF47F8058C931AA1FB9F334 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7C1D8AEEAEFC42853935B17CBC655EC /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CFAFE3222BC3E60EB4632ABB9D8FF05 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCC425992F6590B07E4AEF47DC98E3F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8EC26BE23AE8EFEEF79D1384C784C9 /* Foundation.framework */; };
+		BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC90377563BC0EA17B2B5FE221BA96E /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C091C19FC88C9C6E303A8231F277438D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4655B1006B21F02B345F77ECBF925153 /* MapKit.framework */; };
+		C0DC213500C3DAC86AE5BC366FA32866 /* GNRAlertContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB7A65B92CC805535B49B72EDA4300BD /* GNRAlertContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C45F2EFB0DB1565744BB67F7AEAE6164 /* GNRAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A0BC5E04185E13EE54E62789C9D32C /* GNRAlertController-dummy.m */; };
+		C7E8206881ADC881853CA631AE10FE28 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 686CDA691A2E3694106E403081927074 /* View+MASAdditions.m */; };
+		CAC3B9E51C514BF17AA7C10EE0F33FC4 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 528DDAD08B54A44B9225EA0D355793FF /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC70F08BAD6553ECE63406B0A5DD5B0E /* GNRAlertControllerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A85E76DB751272E30B990AAF8EA2EA /* GNRAlertControllerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0FA28CF0808B27B03033D783D66C5D0 /* UIView+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4CB2C347C3F4FCFCFEE791950FC28 /* UIView+Factory.m */; };
+		D47E57346F4BD94D31761326D5C27886 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 034BA5B0FBDDA770C1E4F82DF6E03FCD /* MASCompositeConstraint.m */; };
+		D63807CB1E217BEEBC860E3FA73EDCBA /* GNRAlertContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D3B11BF255BB86412BBBFC4185BB4C /* GNRAlertContentView.m */; };
+		D77BBC9F2E5C44ED59867460D84C1627 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A43CB5329185345F199BF55B5C6F94 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2D294E1A7C16ABDDD0059F1C738C604 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A09054041062AE6DF80F85E04D19D39 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1F165BD8D89DEF332E9EEED5C538F4 /* FBSnapshotTestController.m */; };
+		E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 5727CCFFB8BCA2480EFA5F089655AEDD /* UIImage+Diff.m */; };
+		E549D674B5737CAD9CA4B6A10AEBDE31 /* GNRAlertControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3AB1DA21E929AE3268873482C40E1F /* GNRAlertControllerConfig.m */; };
+		EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3553865FA07FBF1F8698F9CFBC27C8EF /* UIImage+Snapshot.m */; };
+		EB58DF643C2775BD3E5D7AE1F2A4E3CB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 449D56EA7AD0DED597FD9C7A86CC8A94 /* MASViewConstraint.m */; };
+		F03AC3FE7256F2660B9CE6B1DF8BBF2D /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F820662FFCC8A9A063E96978FE0F3CFC /* MASLayoutConstraint.m */; };
+		F063AD076BCD6A53B4EF03C3C5C7B884 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDE03953339CF0C047B60A258B8303E /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0927776360A862E129EB047678084BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D255A8F498577EBFC0B3E0683C583108 /* UIKit.framework */; };
+		FC8A17006D9EEABFEF8BECDB82630F3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8EC26BE23AE8EFEEF79D1384C784C9 /* Foundation.framework */; };
+		FFD34AEB459475C678C2250E8F1274F8 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE3BC801524BAB7731C3955C410DEC6 /* Masonry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		32329CA2759E3B8E8BF855534ACF8E9E /* PBXContainerItemProxy */ = {
+		2747CBD4073A0CDB8C05F3FCD68A8AE3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B1BBC6F9DB9A3111C34C81B13CDC1196;
+			remoteGlobalIDString = FE96E00C3C32AA578E65068FA29B9271;
+			remoteInfo = Masonry;
+		};
+		3242129CB1E4BD1C2B739BFC4FF5BCB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A879B9A3211C5D0C9D34603E0A01B03;
 			remoteInfo = GNRFoundation;
 		};
-		57C8FD0ED158D05749889AC0676A569C /* PBXContainerItemProxy */ = {
+		39484DCFD49A29D60087BC74C43AE2AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 206FD1F038494377AC580193DE245110;
-			remoteInfo = Masonry;
+			remoteGlobalIDString = 1A879B9A3211C5D0C9D34603E0A01B03;
+			remoteInfo = GNRFoundation;
 		};
-		74E4255C7F4C3E97686435555F8CB8C6 /* PBXContainerItemProxy */ = {
+		3D98D56051AAAFFC082D01C8DCC24664 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 206FD1F038494377AC580193DE245110;
-			remoteInfo = Masonry;
-		};
-		98D61156C61067415BF0D23CF93F7DF8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		C0795D268BECD4DA6F8601A16C596D37 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F7F1445412DB1C76B3CD18611F24E4B9;
+			remoteGlobalIDString = 28E98583BEE7277963EB517F98B76E90;
 			remoteInfo = GNRAlertController;
 		};
-		C341748DF9C6B3C8EDE3A17ED6FCD1AD /* PBXContainerItemProxy */ = {
+		8CA6430C34FB159B12B8F39B4AA28C41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 513920608BBD704DBBF689F93AE613AF;
+			remoteGlobalIDString = 9208F82521C84CC962FB475DC38D3371;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		97A0578487B31132982D460354291665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB988FB43034011832F06DEF4687FC98;
 			remoteInfo = "Pods-GNRAlertController_Example";
 		};
-		CB641AF28C7A1D5EC2A04AE26DAA553D /* PBXContainerItemProxy */ = {
+		9C52FD784C8E913345B3D86577E309E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B1BBC6F9DB9A3111C34C81B13CDC1196;
-			remoteInfo = GNRFoundation;
+			remoteGlobalIDString = FE96E00C3C32AA578E65068FA29B9271;
+			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -166,9 +166,9 @@
 		07B9CC486B4867421A96D30B11F13A58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0847C33BF9AF15FD523464788BEB0C3D /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		0D8FBB55E163588E0037117CC2BCD645 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		0F602430AB801257368F014E86C1DAE0 /* Pods_GNRAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GNRAlertController_Example.framework; path = "Pods-GNRAlertController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		119EE568003987034825999722283358 /* Pods_GNRAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GNRAlertController_Tests.framework; path = "Pods-GNRAlertController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13EEFFB685EDA707A868D28E00CCE219 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0F602430AB801257368F014E86C1DAE0 /* Pods_GNRAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNRAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		119EE568003987034825999722283358 /* Pods_GNRAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNRAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13EEFFB685EDA707A868D28E00CCE219 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1BAD7C449C5533F3565A686EDD6BA15E /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		1EE4CB2C347C3F4FCFCFEE791950FC28 /* UIView+Factory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Factory.m"; path = "GNRFoundation/Classes/UIView+Factory.m"; sourceTree = "<group>"; };
 		1FF8787E0A7757FF72EDE32E4BAECF20 /* GNRFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNRFoundation-umbrella.h"; sourceTree = "<group>"; };
@@ -193,7 +193,7 @@
 		43AC958DDD40E1D4978638F7DF5BAB5A /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		449D56EA7AD0DED597FD9C7A86CC8A94 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		4655B1006B21F02B345F77ECBF925153 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		4988075C97D71A13A3FC6DF98A76CDA8 /* GNRAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GNRAlertController.framework; path = GNRAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4988075C97D71A13A3FC6DF98A76CDA8 /* GNRAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GNRAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E9344E5A65086010FB6196B1D23919 /* Pods-GNRAlertController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNRAlertController_Example-umbrella.h"; sourceTree = "<group>"; };
 		4C3789235AADB601214236CCD6B660E2 /* NSObject+TKObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+TKObject.h"; path = "GNRFoundation/Classes/NSObject+TKObject.h"; sourceTree = "<group>"; };
 		4CFB48009D3596001E9D42981820C922 /* UIImage+Fix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Fix.h"; path = "GNRFoundation/Classes/UIImage+Fix.h"; sourceTree = "<group>"; };
@@ -224,12 +224,12 @@
 		6615C639D32B5611AB7B7873CCC04B17 /* GNRAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNRAlertController.h; path = GNRAlertController/Classes/GNRAlertController.h; sourceTree = "<group>"; };
 		66D6E5461DF99ED19848AAE38A576C8D /* UIBarButtonItem+Factory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+Factory.m"; path = "GNRFoundation/Classes/UIBarButtonItem+Factory.m"; sourceTree = "<group>"; };
 		686CDA691A2E3694106E403081927074 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		6A60BEA0323C5B3E36C83F1EB37CECBF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A60BEA0323C5B3E36C83F1EB37CECBF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B4BE5168C14BDDE6109507F3B2A9471 /* CALayer+Factory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+Factory.m"; path = "GNRFoundation/Classes/CALayer+Factory.m"; sourceTree = "<group>"; };
 		6D05ED9AD925A376DCC64090EFFA9E52 /* GNRFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNRFoundation.h; path = GNRFoundation/Classes/GNRFoundation.h; sourceTree = "<group>"; };
 		6D3E0ED6D4629E826A9033145C9DF87C /* Pods-GNRAlertController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNRAlertController_Example-dummy.m"; sourceTree = "<group>"; };
 		70CDB4DB4D877F5F97EA29CE320DF44F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		750CB61151600100059BCA96B1C4DBC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		750CB61151600100059BCA96B1C4DBC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		75A85E76DB751272E30B990AAF8EA2EA /* GNRAlertControllerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNRAlertControllerConfig.h; path = GNRAlertController/Classes/GNRAlertControllerConfig.h; sourceTree = "<group>"; };
 		774264E12DF47F8058C931AA1FB9F334 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		784F0223172337CAC70328161FEE55C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -247,14 +247,14 @@
 		8D084FE4D33BACB7BAA9317D8BB2AF4A /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		8E4BD7CA19763CDA28C4CA9DAE508884 /* UIView+GNRSafeArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+GNRSafeArea.h"; path = "GNRFoundation/Classes/UIView+GNRSafeArea.h"; sourceTree = "<group>"; };
 		905FBFCD19707B1F59EA2894B297B9D9 /* GNRAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GNRAlertController.m; path = GNRAlertController/Classes/GNRAlertController.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96573B7CCE4F6846D09C397B83312A09 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		97D76AF1809DF5D4FAD4E38242660874 /* Pods-GNRAlertController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GNRAlertController_Tests.modulemap"; sourceTree = "<group>"; };
 		9A5C7B33E35C2D8B3D41FBDB5943A33E /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		9CFAFE3222BC3E60EB4632ABB9D8FF05 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		9E2F5EA67CD42A01412C1482B13C39D7 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		A07AE3A2876BA3329585A10565745703 /* NSObject+TKObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+TKObject.m"; path = "GNRFoundation/Classes/NSObject+TKObject.m"; sourceTree = "<group>"; };
-		A5DC7870957332C291F37497558A7CF2 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DC7870957332C291F37497558A7CF2 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7599A1F0A08A0645E2CD29ADCF84205 /* Pods-GNRAlertController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNRAlertController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A90F12F035637883F631C256F6CD31CA /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		A9A43CB5329185345F199BF55B5C6F94 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -277,7 +277,7 @@
 		D67931A7A3196C42EC6F937300F81078 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		DB04C2FBB7F4A8D8D3FD1A6EA0A23E9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1D3B11BF255BB86412BBBFC4185BB4C /* GNRAlertContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GNRAlertContentView.m; path = GNRAlertController/Classes/GNRAlertContentView.m; sourceTree = "<group>"; };
-		E2E2F2A152761C4E7FA5A890024A8496 /* GNRAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GNRAlertController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E2E2F2A152761C4E7FA5A890024A8496 /* GNRAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GNRAlertController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EA7C29AA6516FB18A6E565E20BAC361B /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		F014CA245D2E95C6AE1D94DDD42C57F6 /* Pods-GNRAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNRAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F06A182300D94B7E023408F8CC6FFF66 /* Pods-GNRAlertController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNRAlertController_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -285,64 +285,64 @@
 		F55C884EEE37E7B28EBF94AE1F2A7835 /* Pods-GNRAlertController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNRAlertController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F7F74025C217D534D75C0C03DBB72EAA /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		F820662FFCC8A9A063E96978FE0F3CFC /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		FA4AD32CD8855DAE4398B418290A565C /* GNRFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GNRFoundation.framework; path = GNRFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4AD32CD8855DAE4398B418290A565C /* GNRFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GNRFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3AC890DC0ED3B0680D5821CED21AAA /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */ = {
+		05A542ECBA59ADE3D23D36E331D102E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAD9A0E0F40D3984B78A22F8D3CDAB45 /* Foundation.framework in Frameworks */,
-				5BC12F69E33ABA27B9E0B78128CE336D /* QuartzCore.framework in Frameworks */,
-				47DEE95708BDBD11436162D166CD192E /* UIKit.framework in Frameworks */,
-				18EA4E0D8B74F2B2BBF8F39B49F49BF9 /* XCTest.framework in Frameworks */,
+				85E1ABDA182E47509159D068E2E9501D /* Foundation.framework in Frameworks */,
+				C091C19FC88C9C6E303A8231F277438D /* MapKit.framework in Frameworks */,
+				64D1046D9CD6E66A854D49D85592451B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82B3F919218B437A4225093FD9C3CAB1 /* Frameworks */ = {
+		06A086085916D88E8F989A2FD78DFDFB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C8F77E87816CC8955F5B29FECF6B84A /* Foundation.framework in Frameworks */,
+				4F7BD484FB402A43887E35E364F04D94 /* Foundation.framework in Frameworks */,
+				293F9960B08003218B222D258FE77581 /* QuartzCore.framework in Frameworks */,
+				F0927776360A862E129EB047678084BC /* UIKit.framework in Frameworks */,
+				9E45BEFE59B02FE7B91A464A4915D65C /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87D0ECF860399567D575777D76991ACF /* Frameworks */ = {
+		1FD8455D6E4D44486FB5BCD15B6ACA7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C3E8D902943A0CC4E7CA893C0C8F5AE /* Foundation.framework in Frameworks */,
-				405F0FD42BCE131A5EE798B5A91246E9 /* MapKit.framework in Frameworks */,
-				5E4F5E8D8798977C6698162AA628A3B9 /* UIKit.framework in Frameworks */,
+				FC8A17006D9EEABFEF8BECDB82630F3B /* Foundation.framework in Frameworks */,
+				80FB84948CC553C81BE88ADA2EBE6555 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0E5E438135D0100A9C53A682236A0B7 /* Frameworks */ = {
+		4BF089108EE8590ECA3D46EF1531236A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17735B4F9FAF4EDC640B285E3AA054D4 /* Foundation.framework in Frameworks */,
-				7B93B69E11C4241E904426D44CB1F5A8 /* GNRFoundation.framework in Frameworks */,
-				485F86F4857CE4790CC936477FA97826 /* Masonry.framework in Frameworks */,
+				BCC425992F6590B07E4AEF47DC98E3F9 /* Foundation.framework in Frameworks */,
+				85208E7B5838CC4BF1C3A4A0D2A435DE /* GNRFoundation.framework in Frameworks */,
+				FFD34AEB459475C678C2250E8F1274F8 /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B99C991D9459D73A14B17A686F0B51E0 /* Frameworks */ = {
+		78C628D5A62AD4DD2799114E26DE9908 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96A5538C8D2FEAF59DF91FF72CD94108 /* Foundation.framework in Frameworks */,
-				4FD3DF3004AF730E12B3E0B8CC003453 /* UIKit.framework in Frameworks */,
+				1CAC8C42998900002D758B5B0586B047 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E055109C0E47C5F38149B7DBF69FB21D /* Frameworks */ = {
+		7A980B263D4C0510CE21104AF188DF91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224472E548A1E6C905A5CF1A7A89C43A /* Foundation.framework in Frameworks */,
+				0B3D666CD8B4E70AA55FFCF451FD5A97 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +381,6 @@
 				50F720884152FB4628FAC727BFEA0062 /* UIView+GNRSafeArea.m */,
 				7BD51F004F534A4A5E792E3CA0C4F076 /* Support Files */,
 			);
-			name = GNRFoundation;
 			path = GNRFoundation;
 			sourceTree = "<group>";
 		};
@@ -474,7 +473,6 @@
 				809B98499E859C1417E0B191DD2B6567 /* Support Files */,
 				1A5686C80BC642B8C7561A0E5AD79519 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -594,7 +592,6 @@
 				96573B7CCE4F6846D09C397B83312A09 /* ViewController+MASAdditions.m */,
 				571ED787B136635AA496B9E671A231EF /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -650,174 +647,102 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3593D2DDAE2E72D588EBF9B217648B1A /* Headers */ = {
+		2D0BAA8DF430DA34B8CAAE6158293EC2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				579598CBCEAC317E3EC3E532CDEDEC76 /* CALayer+Factory.h in Headers */,
-				04ECD89C5DCEEAD98B8A931C03C795E8 /* GNRFoundation-umbrella.h in Headers */,
-				5DAC7822E344708FF1AE69B7313C686F /* GNRFoundation.h in Headers */,
-				588593D9836B0B3506A0733D3594957C /* NSObject+TKObject.h in Headers */,
-				53F827BB92F6AEF7D1128457DAC34E1F /* NSString+FirstLetter.h in Headers */,
-				99EB2723635B7956A0D8AA9B410B744F /* UIBarButtonItem+Factory.h in Headers */,
-				C59A58E31E1EB7F3160B4A59BBF7DB95 /* UIColor+Hex.h in Headers */,
-				83303D0D326C40D74F7112A34EE5F7E7 /* UIImage+Fix.h in Headers */,
-				1C2A74397C647A1C613CEFEBE5EF1805 /* UIView+Factory.h in Headers */,
-				F9760F908CF6601DE237BA9920F107A7 /* UIView+GNRSafeArea.h in Headers */,
+				0228937014BEF62928C6A5192E314AB3 /* Pods-GNRAlertController_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */ = {
+		39D6DC2744444050BFBC3875473CEABE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
-				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
-				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
-				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
-				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
-				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
-				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
+				0C4E2CAB708E1A138BEFB9BADDAF1164 /* GNRAlertAction.h in Headers */,
+				01C69526D42BBBF2DD3CAFC2DC28BBA7 /* GNRAlertActionView.h in Headers */,
+				C0DC213500C3DAC86AE5BC366FA32866 /* GNRAlertContentView.h in Headers */,
+				7CA107DA94F8ED625CAB932B89A476E5 /* GNRAlertController-umbrella.h in Headers */,
+				93987A7F05C06AF2FF380C1662B745E6 /* GNRAlertController.h in Headers */,
+				CC70F08BAD6553ECE63406B0A5DD5B0E /* GNRAlertControllerConfig.h in Headers */,
+				2D3DA9761CA4BA6A5E425825E1676876 /* GNRAlertControllerManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA9F38D81E07A28FE9FFDC838E7BB28B /* Headers */ = {
+		8F0D2B8F675F8B99EEC31EDD668A8FAF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64F55F64AB0323F910DC3E0157E8274F /* MASCompositeConstraint.h in Headers */,
-				C0C99171A18A3DD06F1F68AE89BBFCFF /* MASConstraint+Private.h in Headers */,
-				D922FEFA07B45CD394CFD07B64181A3C /* MASConstraint.h in Headers */,
-				B429CC9F942359C3BEFC88130B808AAC /* MASConstraintMaker.h in Headers */,
-				EB5E06E6E8343F6928C6DBB21BC1C50F /* MASLayoutConstraint.h in Headers */,
-				FEEDFB348C333A5BA44E02CD2004CFC7 /* Masonry-umbrella.h in Headers */,
-				965E13EFC591CAF28CC5BFC69080CE02 /* Masonry.h in Headers */,
-				7ECBB09F44D5466ECD95B08511A3FF49 /* MASUtilities.h in Headers */,
-				1807A9A980BF52D5FF33A8C34B75C37E /* MASViewAttribute.h in Headers */,
-				4E41B0F12EB7FF19278663F741205E1A /* MASViewConstraint.h in Headers */,
-				64950A8DDC13FD291C2F1F2229BAFCD9 /* NSArray+MASAdditions.h in Headers */,
-				16D19B9AB8FC44887E53B26E4D9ABFEB /* NSArray+MASShorthandAdditions.h in Headers */,
-				4CE1C473272899A977FA11B93885F9C6 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				A2D6917B0A398D53EA5A6BFCA8AEB987 /* View+MASAdditions.h in Headers */,
-				06C6B9C77FE526C11FF27DB5DCFFE7CF /* View+MASShorthandAdditions.h in Headers */,
-				2341F9A7AD567B342E15411034EF2B50 /* ViewController+MASAdditions.h in Headers */,
+				4CF5865BAF828AB9A7C56F3A1B1C856F /* FBSnapshotTestCase-umbrella.h in Headers */,
+				B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */,
+				4D600539FC2E29EA7E28A2DA8A8B328C /* FBSnapshotTestCasePlatform.h in Headers */,
+				59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */,
+				BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */,
+				63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */,
+				73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */,
+				387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCBD3B0C25C3024CB1EA3D01327843DD /* Headers */ = {
+		91F303CEB25088905B4CE9097595AC7B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83776B2C14412A44895E1774B349A2A2 /* Pods-GNRAlertController_Tests-umbrella.h in Headers */,
+				1E10BE4F08DBF182F93A67B8EC9F9C79 /* Pods-GNRAlertController_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F582823FC8237080CE198A59D1FA46DE /* Headers */ = {
+		99E71191A5A26EC5A62DC8AA7AB28CA3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2156846911B8AFBD372DE469DAEA11A8 /* Pods-GNRAlertController_Example-umbrella.h in Headers */,
+				35C3D59FA03FEE2B25E835226BF4BDD9 /* CALayer+Factory.h in Headers */,
+				8A3BC9D4BBED4067EED9C9999A620D2A /* GNRFoundation-umbrella.h in Headers */,
+				83DCA447772AE9F300809F156BD56358 /* GNRFoundation.h in Headers */,
+				22DE628C4C2ABCFDD41F2B500165B6C0 /* NSObject+TKObject.h in Headers */,
+				00C92F18CE65C23E3B85B4CE71FBB897 /* NSString+FirstLetter.h in Headers */,
+				09E765FE1D9E67B26F0D8CC4EF52B978 /* UIBarButtonItem+Factory.h in Headers */,
+				6BA6EE637BB4A0774969286D98F852A7 /* UIColor+Hex.h in Headers */,
+				866D3F40B4F0591142B89B9486123237 /* UIImage+Fix.h in Headers */,
+				ADF99254AFABAEB34A4DC22AE2A97094 /* UIView+Factory.h in Headers */,
+				5F11850AC143D902DF7CA4A693B70DDC /* UIView+GNRSafeArea.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5F086E1A0075CC42A7C81D2A74C5814 /* Headers */ = {
+		DAEBB6F21C293B302DA16E01406F3DB1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9941449DC4ED8506DFA016888AD24C8 /* GNRAlertAction.h in Headers */,
-				95F677379897DAFC26B2FAC374D81CC3 /* GNRAlertActionView.h in Headers */,
-				541F000E6BE4AF71D70650935D63AEB6 /* GNRAlertContentView.h in Headers */,
-				C3804414E92376437697BDABC3E5B6EC /* GNRAlertController-umbrella.h in Headers */,
-				7FCE2B64062DD4867649868CEEC6EE82 /* GNRAlertController.h in Headers */,
-				4B4A1F33306245BDD23F20BF513B840A /* GNRAlertControllerConfig.h in Headers */,
-				DACD79721F20F3CFA40F8E4301798023 /* GNRAlertControllerManager.h in Headers */,
+				7F52FD3072F9262335B0771D7E0D7E14 /* MASCompositeConstraint.h in Headers */,
+				D77BBC9F2E5C44ED59867460D84C1627 /* MASConstraint+Private.h in Headers */,
+				2FD790469BD76FD5F05DD5FF76137A32 /* MASConstraint.h in Headers */,
+				E2D294E1A7C16ABDDD0059F1C738C604 /* MASConstraintMaker.h in Headers */,
+				CAC3B9E51C514BF17AA7C10EE0F33FC4 /* MASLayoutConstraint.h in Headers */,
+				1E7278FE977D9E190768DA4F7FB8C4EB /* Masonry-umbrella.h in Headers */,
+				5734847286A8399CB586960E3E9B5BC1 /* Masonry.h in Headers */,
+				A5E8AFCDB1CAF8394229CBE7CFE7D42F /* MASUtilities.h in Headers */,
+				827C3C014A20BD1ADA171CDB10E0B88A /* MASViewAttribute.h in Headers */,
+				F063AD076BCD6A53B4EF03C3C5C7B884 /* MASViewConstraint.h in Headers */,
+				63EB8B50569875D2AE9ECF42F34BFDAC /* NSArray+MASAdditions.h in Headers */,
+				7B5B3902DE66E2E08EF970EFB3E7D0F2 /* NSArray+MASShorthandAdditions.h in Headers */,
+				B37EBE83103361278F2996BF8B15088D /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				7DA521F071E8D872087AA6022E0D64C3 /* View+MASAdditions.h in Headers */,
+				B535A2BD5F6AE8D16B556AE32D23C602 /* View+MASShorthandAdditions.h in Headers */,
+				B7C1D8AEEAEFC42853935B17CBC655EC /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		206FD1F038494377AC580193DE245110 /* Masonry */ = {
+		1A879B9A3211C5D0C9D34603E0A01B03 /* GNRFoundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 845D1894C417EA293022C5DD61A7A489 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = 1B2B0AFC3653DFA10A3F27C8F4B16CDA /* Build configuration list for PBXNativeTarget "GNRFoundation" */;
 			buildPhases = (
-				4F7C084320D120DBA882B56DD6CFEA60 /* Sources */,
-				B99C991D9459D73A14B17A686F0B51E0 /* Frameworks */,
-				CA9F38D81E07A28FE9FFDC838E7BB28B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Masonry;
-			productName = Masonry;
-			productReference = 6A60BEA0323C5B3E36C83F1EB37CECBF /* Masonry.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
-			buildPhases = (
-				E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */,
-				1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */,
-				9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = A5DC7870957332C291F37497558A7CF2 /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		513920608BBD704DBBF689F93AE613AF /* Pods-GNRAlertController_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 920B317FEE2EB73F56289F7EFD9336FA /* Build configuration list for PBXNativeTarget "Pods-GNRAlertController_Example" */;
-			buildPhases = (
-				5250C6CDC191656D811AED118E2C16B9 /* Sources */,
-				82B3F919218B437A4225093FD9C3CAB1 /* Frameworks */,
-				F582823FC8237080CE198A59D1FA46DE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9D6EA02D6F36A3075F78F1BFE6E70076 /* PBXTargetDependency */,
-				79C88D28108A61E53325E39EEBB372B1 /* PBXTargetDependency */,
-				20056A019F78F9DA8E35896003B02E3B /* PBXTargetDependency */,
-			);
-			name = "Pods-GNRAlertController_Example";
-			productName = "Pods-GNRAlertController_Example";
-			productReference = 0F602430AB801257368F014E86C1DAE0 /* Pods_GNRAlertController_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8C86EA9E2DB304734232DDE0D1494FCA /* Pods-GNRAlertController_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B6930A4884EC1093A614295643CAC0D /* Build configuration list for PBXNativeTarget "Pods-GNRAlertController_Tests" */;
-			buildPhases = (
-				81E2C8693E53A90576E213EB1651A14D /* Sources */,
-				E055109C0E47C5F38149B7DBF69FB21D /* Frameworks */,
-				CCBD3B0C25C3024CB1EA3D01327843DD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C03345BD7C7183803CAF900034493C2F /* PBXTargetDependency */,
-				63D235A6689D3321BFE785D7EC64FF3A /* PBXTargetDependency */,
-			);
-			name = "Pods-GNRAlertController_Tests";
-			productName = "Pods-GNRAlertController_Tests";
-			productReference = 119EE568003987034825999722283358 /* Pods_GNRAlertController_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B1BBC6F9DB9A3111C34C81B13CDC1196 /* GNRFoundation */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F4DADDC0B8165EC28A9D81513D914444 /* Build configuration list for PBXNativeTarget "GNRFoundation" */;
-			buildPhases = (
-				45F8B88ED3E3E4DC30C0C805687C1FB7 /* Sources */,
-				87D0ECF860399567D575777D76991ACF /* Frameworks */,
-				3593D2DDAE2E72D588EBF9B217648B1A /* Headers */,
+				99E71191A5A26EC5A62DC8AA7AB28CA3 /* Headers */,
+				DC263F520368DC2CB5D281BA3F404EF0 /* Sources */,
+				05A542ECBA59ADE3D23D36E331D102E0 /* Frameworks */,
+				0DF45FA696628F44F86CBF6B1B655918 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -828,23 +753,101 @@
 			productReference = FA4AD32CD8855DAE4398B418290A565C /* GNRFoundation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F7F1445412DB1C76B3CD18611F24E4B9 /* GNRAlertController */ = {
+		28E98583BEE7277963EB517F98B76E90 /* GNRAlertController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28F9E8F2C46ADE9EDD5479D349D82D38 /* Build configuration list for PBXNativeTarget "GNRAlertController" */;
+			buildConfigurationList = C3A58BCB5609AD2E962853E5AD5F3C7B /* Build configuration list for PBXNativeTarget "GNRAlertController" */;
 			buildPhases = (
-				C21F9DE8FEFA2506F151E13F807805F8 /* Sources */,
-				B0E5E438135D0100A9C53A682236A0B7 /* Frameworks */,
-				F5F086E1A0075CC42A7C81D2A74C5814 /* Headers */,
+				39D6DC2744444050BFBC3875473CEABE /* Headers */,
+				8976111ED276CDE8143DF7EF65DAFE46 /* Sources */,
+				4BF089108EE8590ECA3D46EF1531236A /* Frameworks */,
+				3D1AF2319D9F510394F1807A354FB239 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				200EBEBB789AD85FDF086D564D26588E /* PBXTargetDependency */,
-				3A5ACA97DDCEF8166FADF882AAB8108E /* PBXTargetDependency */,
+				4EE055FD39F1F1916D109151DED5FC87 /* PBXTargetDependency */,
+				390376268C192159CCA7522EA0B192D1 /* PBXTargetDependency */,
 			);
 			name = GNRAlertController;
 			productName = GNRAlertController;
 			productReference = 4988075C97D71A13A3FC6DF98A76CDA8 /* GNRAlertController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		38F121CC8BC196F01F9FF571A81BDCCD /* Pods-GNRAlertController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F465365D1262F1EF63118F957590E5D9 /* Build configuration list for PBXNativeTarget "Pods-GNRAlertController_Tests" */;
+			buildPhases = (
+				2D0BAA8DF430DA34B8CAAE6158293EC2 /* Headers */,
+				6DC5CE43F1DC8405CF826308C64557C9 /* Sources */,
+				78C628D5A62AD4DD2799114E26DE9908 /* Frameworks */,
+				0A47A6E27EB8DBB1BA9658F4970C3AA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DA787BD9E9D8A146550033AAF81596F /* PBXTargetDependency */,
+				7D7B56664649DB25604187CFEEB505A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-GNRAlertController_Tests";
+			productName = "Pods-GNRAlertController_Tests";
+			productReference = 119EE568003987034825999722283358 /* Pods_GNRAlertController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE36427AE56C81503352C1A9AF63448 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				8F0D2B8F675F8B99EEC31EDD668A8FAF /* Headers */,
+				533D6D3D5261BC5070BDFEDDCFD1267C /* Sources */,
+				06A086085916D88E8F989A2FD78DFDFB /* Frameworks */,
+				AD4E4321B395852DC07143FDAF5069AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = A5DC7870957332C291F37497558A7CF2 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB988FB43034011832F06DEF4687FC98 /* Pods-GNRAlertController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5AF43ECE291C89189D7FCF8A447E7F1 /* Build configuration list for PBXNativeTarget "Pods-GNRAlertController_Example" */;
+			buildPhases = (
+				91F303CEB25088905B4CE9097595AC7B /* Headers */,
+				351AB3D9FFE8C4742425C27EA53CCADB /* Sources */,
+				7A980B263D4C0510CE21104AF188DF91 /* Frameworks */,
+				E0804DD0EFC1950B3DB83901E8571871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36AF7EBD38D3E15A4EFB9DE820A87F05 /* PBXTargetDependency */,
+				37918D907D1A09CF10E6A0B9B45A6C22 /* PBXTargetDependency */,
+				0699F8A9D847573A899F1D2078108BB5 /* PBXTargetDependency */,
+			);
+			name = "Pods-GNRAlertController_Example";
+			productName = "Pods-GNRAlertController_Example";
+			productReference = 0F602430AB801257368F014E86C1DAE0 /* Pods_GNRAlertController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE96E00C3C32AA578E65068FA29B9271 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B3CC0BAEC9B67522B65B7953C6C3C9 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				DAEBB6F21C293B302DA16E01406F3DB1 /* Headers */,
+				FE47AB54CBF6B1A42DBF528A0361F6F6 /* Sources */,
+				1FD8455D6E4D44486FB5BCD15B6ACA7F /* Frameworks */,
+				F2FD2F2B1F0D2BE4F4333CB8D99FFB22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 6A60BEA0323C5B3E36C83F1EB37CECBF /* Masonry.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -868,146 +871,504 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
-				F7F1445412DB1C76B3CD18611F24E4B9 /* GNRAlertController */,
-				B1BBC6F9DB9A3111C34C81B13CDC1196 /* GNRFoundation */,
-				206FD1F038494377AC580193DE245110 /* Masonry */,
-				513920608BBD704DBBF689F93AE613AF /* Pods-GNRAlertController_Example */,
-				8C86EA9E2DB304734232DDE0D1494FCA /* Pods-GNRAlertController_Tests */,
+				9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */,
+				28E98583BEE7277963EB517F98B76E90 /* GNRAlertController */,
+				1A879B9A3211C5D0C9D34603E0A01B03 /* GNRFoundation */,
+				FE96E00C3C32AA578E65068FA29B9271 /* Masonry */,
+				AB988FB43034011832F06DEF4687FC98 /* Pods-GNRAlertController_Example */,
+				38F121CC8BC196F01F9FF571A81BDCCD /* Pods-GNRAlertController_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		0A47A6E27EB8DBB1BA9658F4970C3AA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF45FA696628F44F86CBF6B1B655918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1AF2319D9F510394F1807A354FB239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4E4321B395852DC07143FDAF5069AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0804DD0EFC1950B3DB83901E8571871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FD2F2B1F0D2BE4F4333CB8D99FFB22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		45F8B88ED3E3E4DC30C0C805687C1FB7 /* Sources */ = {
+		351AB3D9FFE8C4742425C27EA53CCADB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0292259EECD4FA937135650B634ADFB /* CALayer+Factory.m in Sources */,
-				04AE5A01F015406A79809D552FF2BDEF /* GNRFoundation-dummy.m in Sources */,
-				39415346D24C9D6A1E26D920AD728259 /* NSObject+TKObject.m in Sources */,
-				D93795F1671DA79342040A49BD63A5E9 /* NSString+FirstLetter.m in Sources */,
-				D32DE656AAC839F58F13CFEBC1A54E7B /* UIBarButtonItem+Factory.m in Sources */,
-				D7124944C6717E9EBE4731DF6FD72D09 /* UIColor+Hex.m in Sources */,
-				D40C2D710431C307581F84FCE317382B /* UIImage+Fix.m in Sources */,
-				8BED579D35F9906756512B9ADEA48F21 /* UIView+Factory.m in Sources */,
-				0892EC82B194BA2AA4A7ADEAF3B40B01 /* UIView+GNRSafeArea.m in Sources */,
+				67BA2269B04D45A7E9F68AC657EBA232 /* Pods-GNRAlertController_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F7C084320D120DBA882B56DD6CFEA60 /* Sources */ = {
+		533D6D3D5261BC5070BDFEDDCFD1267C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB8271FED894CDB1102BF29A7376D030 /* MASCompositeConstraint.m in Sources */,
-				846B16650FAD1A90B464990A425326AB /* MASConstraint.m in Sources */,
-				04DB66B6B43893667A732678404B4E81 /* MASConstraintMaker.m in Sources */,
-				5B16F8C23B80DC5321C26251F103C5A8 /* MASLayoutConstraint.m in Sources */,
-				8098B0550428A022C50687C92D3032CD /* Masonry-dummy.m in Sources */,
-				6AB9CCED71FFB400835BB5DD0B7C7E58 /* MASViewAttribute.m in Sources */,
-				E64FB3B6F5E77185B78FA88B03D3B782 /* MASViewConstraint.m in Sources */,
-				8E1AA3B6164C32E8836A3054E76A542B /* NSArray+MASAdditions.m in Sources */,
-				4904EBF28F14E560224AF1A3B6077E74 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				2DF35490BD83B066D5C8EF105C6F198C /* View+MASAdditions.m in Sources */,
-				9B4E14CCC1514BA67229BCDE5039200F /* ViewController+MASAdditions.m in Sources */,
+				459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */,
+				6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */,
+				6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */,
+				E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */,
+				163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */,
+				AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */,
+				4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */,
+				E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */,
+				EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5250C6CDC191656D811AED118E2C16B9 /* Sources */ = {
+		6DC5CE43F1DC8405CF826308C64557C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8D7952EEAD471E3DBC8442B655C293B /* Pods-GNRAlertController_Example-dummy.m in Sources */,
+				9786A3684A3F7A758B5C2996AE85EE55 /* Pods-GNRAlertController_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81E2C8693E53A90576E213EB1651A14D /* Sources */ = {
+		8976111ED276CDE8143DF7EF65DAFE46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				720CCBDA04A00388FF9621F433E38F22 /* Pods-GNRAlertController_Tests-dummy.m in Sources */,
+				AF6632EA53ED96C6D0716062F4E104D4 /* GNRAlertAction.m in Sources */,
+				4170A30655CA3EA6C7B7FF618305FADE /* GNRAlertActionView.m in Sources */,
+				D63807CB1E217BEEBC860E3FA73EDCBA /* GNRAlertContentView.m in Sources */,
+				C45F2EFB0DB1565744BB67F7AEAE6164 /* GNRAlertController-dummy.m in Sources */,
+				62C535EC60C7FDFECFEE712A1FA5B990 /* GNRAlertController.m in Sources */,
+				E549D674B5737CAD9CA4B6A10AEBDE31 /* GNRAlertControllerConfig.m in Sources */,
+				2C2450D48E14537DCD32645D46D01657 /* GNRAlertControllerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C21F9DE8FEFA2506F151E13F807805F8 /* Sources */ = {
+		DC263F520368DC2CB5D281BA3F404EF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				061FAFE56CBEA28FC513BD9F301E9DEA /* GNRAlertAction.m in Sources */,
-				433AB7FCE919574EB4485A3A1E650DB8 /* GNRAlertActionView.m in Sources */,
-				2BD9CA800C44766D397EA6A323AC85A0 /* GNRAlertContentView.m in Sources */,
-				B0AE5BD13F7D05F49628997A41D45039 /* GNRAlertController-dummy.m in Sources */,
-				AC431E372DF675F2A01311802D7BE4CD /* GNRAlertController.m in Sources */,
-				1EF791FFB238405ED2830BB66B7F25E9 /* GNRAlertControllerConfig.m in Sources */,
-				76455EBAF2EB2EA18B52AE80FFCD49A4 /* GNRAlertControllerManager.m in Sources */,
+				037ACE4309DB0635DB20157BF858CC28 /* CALayer+Factory.m in Sources */,
+				9FCD661092E0138683455A41C7005431 /* GNRFoundation-dummy.m in Sources */,
+				B0F03D582CB0C33EAC6D62DDDC3433EC /* NSObject+TKObject.m in Sources */,
+				A5D62802BB6A8A78BB47FCB03DFE7A6E /* NSString+FirstLetter.m in Sources */,
+				8CCDC0472B12DD1518CEB455E418614D /* UIBarButtonItem+Factory.m in Sources */,
+				7D885497DC08ADB23DF496BDCA368C9B /* UIColor+Hex.m in Sources */,
+				6A4A0EDA0421871787B5E86E53F49CB3 /* UIImage+Fix.m in Sources */,
+				D0FA28CF0808B27B03033D783D66C5D0 /* UIView+Factory.m in Sources */,
+				5615E5FE375D97C706CBA7BE1A34ABD7 /* UIView+GNRSafeArea.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */ = {
+		FE47AB54CBF6B1A42DBF528A0361F6F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
-				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
-				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
-				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
-				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
-				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
-				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
-				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
-				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
+				D47E57346F4BD94D31761326D5C27886 /* MASCompositeConstraint.m in Sources */,
+				36B23AB5E34D8368DD1A6521F21F4BDA /* MASConstraint.m in Sources */,
+				6DE038BFBB88923E7AB598661687238C /* MASConstraintMaker.m in Sources */,
+				F03AC3FE7256F2660B9CE6B1DF8BBF2D /* MASLayoutConstraint.m in Sources */,
+				9BD84298E16CF241BFA8211ABE18D199 /* Masonry-dummy.m in Sources */,
+				088B7CA474E7C9E5D7A5AF65FF17B20A /* MASViewAttribute.m in Sources */,
+				EB58DF643C2775BD3E5D7AE1F2A4E3CB /* MASViewConstraint.m in Sources */,
+				49B21F72975A4CE7C3BC09940EBD5716 /* NSArray+MASAdditions.m in Sources */,
+				9261804485B8D255510835F85C8E2BA5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				C7E8206881ADC881853CA631AE10FE28 /* View+MASAdditions.m in Sources */,
+				78181C6580E17CC23BD1FA9BC37C2443 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		20056A019F78F9DA8E35896003B02E3B /* PBXTargetDependency */ = {
+		0699F8A9D847573A899F1D2078108BB5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = 206FD1F038494377AC580193DE245110 /* Masonry */;
-			targetProxy = 57C8FD0ED158D05749889AC0676A569C /* PBXContainerItemProxy */;
+			target = FE96E00C3C32AA578E65068FA29B9271 /* Masonry */;
+			targetProxy = 2747CBD4073A0CDB8C05F3FCD68A8AE3 /* PBXContainerItemProxy */;
 		};
-		200EBEBB789AD85FDF086D564D26588E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GNRFoundation;
-			target = B1BBC6F9DB9A3111C34C81B13CDC1196 /* GNRFoundation */;
-			targetProxy = 32329CA2759E3B8E8BF855534ACF8E9E /* PBXContainerItemProxy */;
-		};
-		3A5ACA97DDCEF8166FADF882AAB8108E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 206FD1F038494377AC580193DE245110 /* Masonry */;
-			targetProxy = 74E4255C7F4C3E97686435555F8CB8C6 /* PBXContainerItemProxy */;
-		};
-		63D235A6689D3321BFE785D7EC64FF3A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-GNRAlertController_Example";
-			target = 513920608BBD704DBBF689F93AE613AF /* Pods-GNRAlertController_Example */;
-			targetProxy = C341748DF9C6B3C8EDE3A17ED6FCD1AD /* PBXContainerItemProxy */;
-		};
-		79C88D28108A61E53325E39EEBB372B1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GNRFoundation;
-			target = B1BBC6F9DB9A3111C34C81B13CDC1196 /* GNRFoundation */;
-			targetProxy = CB641AF28C7A1D5EC2A04AE26DAA553D /* PBXContainerItemProxy */;
-		};
-		9D6EA02D6F36A3075F78F1BFE6E70076 /* PBXTargetDependency */ = {
+		36AF7EBD38D3E15A4EFB9DE820A87F05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GNRAlertController;
-			target = F7F1445412DB1C76B3CD18611F24E4B9 /* GNRAlertController */;
-			targetProxy = C0795D268BECD4DA6F8601A16C596D37 /* PBXContainerItemProxy */;
+			target = 28E98583BEE7277963EB517F98B76E90 /* GNRAlertController */;
+			targetProxy = 3D98D56051AAAFFC082D01C8DCC24664 /* PBXContainerItemProxy */;
 		};
-		C03345BD7C7183803CAF900034493C2F /* PBXTargetDependency */ = {
+		37918D907D1A09CF10E6A0B9B45A6C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GNRFoundation;
+			target = 1A879B9A3211C5D0C9D34603E0A01B03 /* GNRFoundation */;
+			targetProxy = 39484DCFD49A29D60087BC74C43AE2AA /* PBXContainerItemProxy */;
+		};
+		390376268C192159CCA7522EA0B192D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = FE96E00C3C32AA578E65068FA29B9271 /* Masonry */;
+			targetProxy = 9C52FD784C8E913345B3D86577E309E9 /* PBXContainerItemProxy */;
+		};
+		4EE055FD39F1F1916D109151DED5FC87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GNRFoundation;
+			target = 1A879B9A3211C5D0C9D34603E0A01B03 /* GNRFoundation */;
+			targetProxy = 3242129CB1E4BD1C2B739BFC4FF5BCB1 /* PBXContainerItemProxy */;
+		};
+		5DA787BD9E9D8A146550033AAF81596F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
-			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
-			targetProxy = 98D61156C61067415BF0D23CF93F7DF8 /* PBXContainerItemProxy */;
+			target = 9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */;
+			targetProxy = 8CA6430C34FB159B12B8F39B4AA28C41 /* PBXContainerItemProxy */;
+		};
+		7D7B56664649DB25604187CFEEB505A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GNRAlertController_Example";
+			target = AB988FB43034011832F06DEF4687FC98 /* Pods-GNRAlertController_Example */;
+			targetProxy = 97A0578487B31132982D460354291665 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02D76897F22390EDC644EA3CD670A6AF /* Release */ = {
+		1F3253DB0E39368A74B3BD8C73D596E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBDCCA8AE4E0932CCE19E654957539CF /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5BBAAF3723C6830336A8BC8522187508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBCD02FB1461C9B8E03262B849A5A48E /* GNRAlertController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GNRAlertController/GNRAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GNRAlertController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GNRAlertController/GNRAlertController.modulemap";
+				PRODUCT_MODULE_NAME = GNRAlertController;
+				PRODUCT_NAME = GNRAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C70BA10FBBD3F1FB37C6CB6391FF69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A9C6369A5993A830B41B33177BB27C /* Pods-GNRAlertController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GNRAlertController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GNRAlertController_Tests/Pods-GNRAlertController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D75CC9DD1640148B0D1F7167ACC31B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBDCCA8AE4E0932CCE19E654957539CF /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87EAE1E22B1E2BA1BE4A99D3BF5D69E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A2E4DFF3C6936AC4023857C68A27F3D /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9082149C9262EA3E0D37A2A255CAE5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F014CA245D2E95C6AE1D94DDD42C57F6 /* Pods-GNRAlertController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GNRAlertController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GNRAlertController_Example/Pods-GNRAlertController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A0EAB5D782E88174587E5B81D15EFFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A2E4DFF3C6936AC4023857C68A27F3D /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A64936ECE52F00C272307AC9544614A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582C38EF4A3F51ABC88C6975B1650C8C /* GNRFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GNRFoundation/GNRFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GNRFoundation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GNRFoundation/GNRFoundation.modulemap";
+				PRODUCT_MODULE_NAME = GNRFoundation;
+				PRODUCT_NAME = GNRFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B22A32B1874985D8FF3684C4503BDED9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7C2BE8B353731FCA070952FD0828BF97 /* Pods-GNRAlertController_Tests.release.xcconfig */;
 			buildSettings = {
@@ -1042,7 +1403,71 @@
 			};
 			name = Release;
 		};
-		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+		CB93732890B43BE650F8926EDDCEEBD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE36902950EB4426C91C06C7E7FFD8A /* Pods-GNRAlertController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GNRAlertController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GNRAlertController_Example/Pods-GNRAlertController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE80E8211F0D5C1A38A9C9E232B33C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582C38EF4A3F51ABC88C6975B1650C8C /* GNRFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GNRFoundation/GNRFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GNRFoundation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GNRFoundation/GNRFoundation.modulemap";
+				PRODUCT_MODULE_NAME = GNRFoundation;
+				PRODUCT_NAME = GNRFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1096,7 +1521,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -1105,166 +1531,7 @@
 			};
 			name = Debug;
 		};
-		246E4E72B3FCB3082551D7B94DADF1B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FE36902950EB4426C91C06C7E7FFD8A /* Pods-GNRAlertController_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GNRAlertController_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GNRAlertController_Example/Pods-GNRAlertController_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3342E866A064961584965CA3EF894E2C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 582C38EF4A3F51ABC88C6975B1650C8C /* GNRFoundation.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GNRFoundation/GNRFoundation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GNRFoundation/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GNRFoundation/GNRFoundation.modulemap";
-				PRODUCT_MODULE_NAME = GNRFoundation;
-				PRODUCT_NAME = GNRFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		47B564BEAF5EBD5B4A1E09B518883407 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F014CA245D2E95C6AE1D94DDD42C57F6 /* Pods-GNRAlertController_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GNRAlertController_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GNRAlertController_Example/Pods-GNRAlertController_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5904033EB1A0F4F638C9B8561AD2D0E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBCD02FB1461C9B8E03262B849A5A48E /* GNRAlertController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GNRAlertController/GNRAlertController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GNRAlertController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GNRAlertController/GNRAlertController.modulemap";
-				PRODUCT_MODULE_NAME = GNRAlertController;
-				PRODUCT_NAME = GNRAlertController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6422476AF9D765536BF850DD9365A77B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBDCCA8AE4E0932CCE19E654957539CF /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		73C35F2EA663B89FA9358E8274EFEEE7 /* Debug */ = {
+		EC48D2B9A72B6AF32B92CF875A36E924 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBCD02FB1461C9B8E03262B849A5A48E /* GNRAlertController.xcconfig */;
 			buildSettings = {
@@ -1293,232 +1560,15 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		92DDABB7E469E615D6F2ED8C08A3C773 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34A9C6369A5993A830B41B33177BB27C /* Pods-GNRAlertController_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GNRAlertController_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GNRAlertController_Tests/Pods-GNRAlertController_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9801FB76342D6D63D3E57D5FB3EC7714 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBDCCA8AE4E0932CCE19E654957539CF /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A38749C15819B02B742737E489EE0EEB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A2E4DFF3C6936AC4023857C68A27F3D /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AB74B6A60AA3078D80BB7D633DFBCA01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A2E4DFF3C6936AC4023857C68A27F3D /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CD2B447FD200FA70E8D5DE85F1730545 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 582C38EF4A3F51ABC88C6975B1650C8C /* GNRFoundation.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GNRFoundation/GNRFoundation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GNRFoundation/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GNRFoundation/GNRFoundation.modulemap";
-				PRODUCT_MODULE_NAME = GNRFoundation;
-				PRODUCT_NAME = GNRFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28F9E8F2C46ADE9EDD5479D349D82D38 /* Build configuration list for PBXNativeTarget "GNRAlertController" */ = {
+		1B2B0AFC3653DFA10A3F27C8F4B16CDA /* Build configuration list for PBXNativeTarget "GNRFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73C35F2EA663B89FA9358E8274EFEEE7 /* Debug */,
-				5904033EB1A0F4F638C9B8561AD2D0E4 /* Release */,
+				A64936ECE52F00C272307AC9544614A6 /* Debug */,
+				CE80E8211F0D5C1A38A9C9E232B33C51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1526,53 +1576,53 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
-				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
+				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		845D1894C417EA293022C5DD61A7A489 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		8DE36427AE56C81503352C1A9AF63448 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6422476AF9D765536BF850DD9365A77B /* Debug */,
-				9801FB76342D6D63D3E57D5FB3EC7714 /* Release */,
+				A0EAB5D782E88174587E5B81D15EFFF3 /* Debug */,
+				87EAE1E22B1E2BA1BE4A99D3BF5D69E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B6930A4884EC1093A614295643CAC0D /* Build configuration list for PBXNativeTarget "Pods-GNRAlertController_Tests" */ = {
+		A2B3CC0BAEC9B67522B65B7953C6C3C9 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92DDABB7E469E615D6F2ED8C08A3C773 /* Debug */,
-				02D76897F22390EDC644EA3CD670A6AF /* Release */,
+				7D75CC9DD1640148B0D1F7167ACC31B1 /* Debug */,
+				1F3253DB0E39368A74B3BD8C73D596E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		920B317FEE2EB73F56289F7EFD9336FA /* Build configuration list for PBXNativeTarget "Pods-GNRAlertController_Example" */ = {
+		C3A58BCB5609AD2E962853E5AD5F3C7B /* Build configuration list for PBXNativeTarget "GNRAlertController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				246E4E72B3FCB3082551D7B94DADF1B1 /* Debug */,
-				47B564BEAF5EBD5B4A1E09B518883407 /* Release */,
+				EC48D2B9A72B6AF32B92CF875A36E924 /* Debug */,
+				5BBAAF3723C6830336A8BC8522187508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+		E5AF43ECE291C89189D7FCF8A447E7F1 /* Build configuration list for PBXNativeTarget "Pods-GNRAlertController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A38749C15819B02B742737E489EE0EEB /* Debug */,
-				AB74B6A60AA3078D80BB7D633DFBCA01 /* Release */,
+				CB93732890B43BE650F8926EDDCEEBD7 /* Debug */,
+				9082149C9262EA3E0D37A2A255CAE5BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4DADDC0B8165EC28A9D81513D914444 /* Build configuration list for PBXNativeTarget "GNRFoundation" */ = {
+		F465365D1262F1EF63118F957590E5D9 /* Build configuration list for PBXNativeTarget "Pods-GNRAlertController_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD2B447FD200FA70E8D5DE85F1730545 /* Debug */,
-				3342E866A064961584965CA3EF894E2C /* Release */,
+				7C70BA10FBBD3F1FB37C6CB6391FF69B /* Debug */,
+				B22A32B1874985D8FF3684C4503BDED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,7 +10,9 @@
 #import <GNRFoundation/UIView+Factory.h>
 #import <Masonry/Masonry.h>
 #import <GNRFoundation/NSString+FirstLetter.h>
+
 @interface GNRAlertContentView()
+
 @property (nonatomic,strong)UILabel *titleLabel;
 @property (nonatomic,strong)UILabel *msgLabel;
 

@@ -249,7 +249,7 @@
 				ORGANIZATIONNAME = "ly918@qq.com";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = TRZ9LYGK9P;
+						DevelopmentTeam = KJYHPTH9NU;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -511,7 +511,7 @@
 			baseConfigurationReference = 2DEE71535AAB31FE55A618FD /* Pods-GNRAlertController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TRZ9LYGK9P;
+				DEVELOPMENT_TEAM = KJYHPTH9NU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GNRAlertController/GNRAlertController-Prefix.pch";
 				INFOPLIST_FILE = "GNRAlertController/GNRAlertController-Info.plist";
@@ -528,7 +528,7 @@
 			baseConfigurationReference = F5AD41471F7E82AD1EDE7EFE /* Pods-GNRAlertController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TRZ9LYGK9P;
+				DEVELOPMENT_TEAM = KJYHPTH9NU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GNRAlertController/GNRAlertController-Prefix.pch";
 				INFOPLIST_FILE = "GNRAlertController/GNRAlertController-Info.plist";

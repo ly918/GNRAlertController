@@ -18,6 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [GNRAlertControllerManager setUpConfig:^(GNRAlertControllerConfig *config) {
+        config.closeBtnImg = [UIImage imageNamed:@"me_pop-ups_icon_cancel"];
+        
+    }];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -37,10 +41,10 @@
     });
     
     //普通
-//    [[GNRAlertController alertTitle:@"标题标题标题标题标题标题标题" message:nil actions:@[cancel,confirm]] show];
+    [[GNRAlertController alertTitle:@"标题标题标题标题标题标题标题" message:@"内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容" actions:@[confirm,cancel]] show];
     
     //高亮文本
-    [[GNRAlertController alertTitle:@"2S后可以取消" message:@"提示提示提示提示提TB示提示提示提示提示提示" attributeTitleSubStrArr:nil attributeMessageSubStrArr:@[@"TB"] attributeTextColor:[UIColor orangeColor] actions:@[cancel,confirm]]show];
+//    [[GNRAlertController alertTitle:@"2S后可以取消" message:@"提示提示提示提示提TB示提示提示提示提示提示" attributeTitleSubStrArr:nil attributeMessageSubStrArr:@[@"TB"] attributeTextColor:[UIColor orangeColor] actions:@[cancel,confirm]]show];
     
     //自定义UI
 //    UIView *view = [[UIView alloc]init];

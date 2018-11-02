@@ -8,14 +8,14 @@
 #import "GNRAlertActionView.h"
 #import <GNRAlertController/GNRAlertControllerManager.h>
 #import <GNRFoundation/UIView+Factory.h>
+#import <GNRFoundation/CALayer+Factory.h>
 #import <GNRFoundation/UIColor+Hex.h>
 #import <GNRFoundation/UIImage+Fix.h>
 #import <Masonry/Masonry.h>
 
 @interface GNRAlertActionView()
-@property (nonatomic, strong)UIImageView *line;
 @property (nonatomic, strong)NSMutableArray *buttons;
-
+@property (nonatomic, strong)NSMutableArray *layers;
 @end
 
 @implementation GNRAlertActionView
@@ -31,15 +31,6 @@ static NSString *GNRAlertControllerActionEnableKeyPath = @"enabled";
     return self;
 }
 
-- (void)installLine{
-    _line = [self newLine];
-    [self addSubview:_line];
-    [_line mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.right.top.equalTo(@0);
-        make.height.equalTo(@0.5);
-    }];
-}
-
 - (void)setActions:(NSArray<GNRAlertAction *> *)actions{
     [self removeObserver];
     [self clear];
@@ -49,50 +40,55 @@ static NSString *GNRAlertControllerActionEnableKeyPath = @"enabled";
 }
 
 - (void)layout{
-    
+
     __block UIButton *lastBtn = nil;
     [self.actions enumerateObjectsUsingBlock:^(GNRAlertAction * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         UIButton *btn = [UIView buttonWithButtonType:UIButtonTypeCustom title:obj.title image:nil target:self action:@selector(buttonPressed:)];
         btn.tag = idx;
         btn.clipsToBounds = NO;
         btn.enabled = obj.enabled;
+        btn.layer.cornerRadius = [GNRAlertControllerManager manager].config.height_actionButton/2.0;
+        btn.layer.masksToBounds = YES;
         [btn setTitleColor:obj.type==GNRAlertActionTypeCancel?[GNRAlertControllerManager manager].config.cancelTextColor:[GNRAlertControllerManager manager].config.confirmTextColor forState:UIControlStateNormal];
-        [btn setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]] forState:UIControlStateNormal];
-        [btn setBackgroundImage:[UIImage imageWithColor:[UIColor colorWithHexString:@"#e7e7e7"]] forState:UIControlStateHighlighted];
-        [btn setTitleColor:[UIColor colorWithHexString:@"#999999" alpha:0.5] forState:UIControlStateDisabled];
-
+        [btn setTitleColor:[UIColor colorWithHexString:@"#ffffff" alpha:0.5] forState:UIControlStateDisabled];
+        
+        if (obj.type==GNRAlertActionTypeCancel) {
+            [btn setBackgroundImage:[UIImage imageWithColor:[GNRAlertControllerManager manager].config.cancelBgColor] forState:UIControlStateNormal];
+        } else {
+            CALayer *layer = [CALayer layerGradientWithColors:[GNRAlertControllerManager manager].config.actionColors locations:nil startPoint:CGPointMake(0, 0.5) endPoint:CGPointMake(1, 0.5)];
+            layer.cornerRadius = [GNRAlertControllerManager manager].config.height_actionButton/2.0;
+            layer.masksToBounds = YES;
+            [btn.layer insertSublayer:layer atIndex:0];
+            [self.layers addObject:layer];
+        }
+        
         [self addSubview:btn];
         
         if (lastBtn) {
             [btn mas_makeConstraints:^(MASConstraintMaker *make) {
-                make.left.equalTo(lastBtn.mas_right);
-                make.top.bottom.equalTo(@0);
+                make.left.equalTo(lastBtn.mas_right).offset([GNRAlertControllerManager manager].config.spaceButton);
+                make.top.equalTo(@0);
+                make.bottom.equalTo(@(-[GNRAlertControllerManager manager].config.bottomMarginButton));
+                make.height.equalTo(@([GNRAlertControllerManager manager].config.height_actionButton));
                 make.width.equalTo(lastBtn);
-                make.right.equalTo(@0);
-            }];
-            //line
-            UIImageView *line = [self newLine];
-            [lastBtn addSubview:line];
-            [line mas_makeConstraints:^(MASConstraintMaker *make) {
-                make.width.equalTo(@0.5);
-                make.top.equalTo(@9);
-                make.bottom.equalTo(@(-9));
-                make.right.equalTo(@0);
+                make.right.equalTo(@(-[GNRAlertControllerManager manager].config.leftMarginButton));
             }];
             
         } else {
             [btn mas_makeConstraints:^(MASConstraintMaker *make) {
-                make.left.top.bottom.equalTo(@0);
+                make.left.equalTo(@([GNRAlertControllerManager manager].config.leftMarginButton));
+                make.top.equalTo(@0);
+                make.bottom.equalTo(@(-[GNRAlertControllerManager manager].config.bottomMarginButton));
+                make.height.equalTo(@([GNRAlertControllerManager manager].config.height_actionButton));
                 if (self.actions.count==1) {
-                    make.right.equalTo(@0);
+                    make.right.equalTo(@(-[GNRAlertControllerManager manager].config.leftMarginButton));
                 }
             }];
         }
         lastBtn = btn;
         [self.buttons addObject:btn];
     }];
-    
-    [self installLine];
+    [self layoutIfNeeded];
 }
 
 
@@ -117,12 +113,25 @@ static NSString *GNRAlertControllerActionEnableKeyPath = @"enabled";
     }
 }
 
+- (void)layoutSubviews{
+    [super layoutSubviews];
+    [self.buttons enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        UIButton *btn = obj;
+        for (CALayer *layer in btn.layer.sublayers) {
+            layer.frame = btn.bounds;
+        }
+    }];
+}
 
 - (void)clear{
     [self.buttons enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [obj removeFromSuperview];
     }];
     [self.buttons removeAllObjects];
+    [self.layers enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [obj removeFromSuperlayer];
+    }];
+    [self.layers removeAllObjects];
 }
 
 - (void)buttonPressed:(UIButton *)sender{
@@ -141,10 +150,11 @@ static NSString *GNRAlertControllerActionEnableKeyPath = @"enabled";
     return _buttons;
 }
 
-- (UIImageView *)newLine{
-    UIImageView *line = [[UIImageView alloc]init];
-    line.backgroundColor = [UIColor colorWithHexString:@"#e7e7e7"];
-    return line;
+- (NSMutableArray *)layers{
+    if (!_layers) {
+        _layers = [NSMutableArray array];
+    }
+    return _layers;
 }
 
 @end

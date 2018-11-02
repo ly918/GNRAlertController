@@ -11,7 +11,6 @@
 @interface GNRAlertActionView : UIView
 
 @property (nonatomic, strong)NSArray <GNRAlertAction *>*actions;
-
 @property (nonatomic, copy)void (^actionBlock)(GNRAlertAction *action);
 
 @end
