@@ -137,6 +137,12 @@
     [self installUI];
     [self updateUI];
     [self addKeyBoardObserve];
+    UITapGestureRecognizer *tapPress =[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapPressAction)];
+    [self.view addGestureRecognizer:tapPress];
+}
+
+- (void)tapPressAction{
+    [self.view endEditing:YES];
 }
 
 -(void)addKeyBoardObserve{

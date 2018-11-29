@@ -22,10 +22,12 @@
         config.closeBtnImg = [UIImage imageNamed:@"me_pop-ups_icon_cancel"];
         
     }];
+    UITapGestureRecognizer *tapPress =[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapPressAction)];
+    [self.view addGestureRecognizer:tapPress];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+- (void)tapPressAction{
     __block GNRAlertAction *cancel = [GNRAlertAction actionWithTitle:nil type:GNRAlertActionTypeCancel handler:^(GNRAlertAction *action) {
         NSLog(@"Cancel");
         
@@ -41,10 +43,10 @@
     });
     
     //普通
-//    [[GNRAlertController alertTitle:@"标题标题标题标题标题标题标题" message:@"内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容" actions:@[confirm,cancel]] show];
+    //    [[GNRAlertController alertTitle:@"标题标题标题标题标题标题标题" message:@"内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容" actions:@[confirm,cancel]] show];
     
     //高亮文本
-//    [[GNRAlertController alertTitle:@"2S后可以取消" message:@"提示提示提示提示提TB示提示提示提示提示提示" attributeTitleSubStrArr:nil attributeMessageSubStrArr:@[@"TB"] attributeTextColor:[UIColor orangeColor] actions:@[cancel,confirm]]show];
+    //    [[GNRAlertController alertTitle:@"2S后可以取消" message:@"提示提示提示提示提TB示提示提示提示提示提示" attributeTitleSubStrArr:nil attributeMessageSubStrArr:@[@"TB"] attributeTextColor:[UIColor orangeColor] actions:@[cancel,confirm]]show];
     
     //自定义UI
     UIView *view = [[UIView alloc]init];
@@ -53,10 +55,11 @@
     textView.backgroundColor = [UIColor greenColor];
     [view addSubview:textView];
     [textView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.bottom.equalTo(@0);
+        make.top.equalTo(@30);
+        make.bottom.equalTo(@-30);
         make.left.equalTo(@0);
         make.right.equalTo(@(0));
-        make.height.mas_equalTo(314);
+        make.height.mas_equalTo(260);
     }];
     GNRAlertController * alertController = [GNRAlertController alertCustomContentView:view actions:nil];
     alertController.config.width_containerView = 251;
