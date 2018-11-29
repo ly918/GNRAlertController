@@ -166,9 +166,9 @@
 		07B9CC486B4867421A96D30B11F13A58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0847C33BF9AF15FD523464788BEB0C3D /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		0D8FBB55E163588E0037117CC2BCD645 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		0F602430AB801257368F014E86C1DAE0 /* Pods_GNRAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNRAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		119EE568003987034825999722283358 /* Pods_GNRAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNRAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		13EEFFB685EDA707A868D28E00CCE219 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0F602430AB801257368F014E86C1DAE0 /* Pods_GNRAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GNRAlertController_Example.framework; path = "Pods-GNRAlertController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		119EE568003987034825999722283358 /* Pods_GNRAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GNRAlertController_Tests.framework; path = "Pods-GNRAlertController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13EEFFB685EDA707A868D28E00CCE219 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1BAD7C449C5533F3565A686EDD6BA15E /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		1EE4CB2C347C3F4FCFCFEE791950FC28 /* UIView+Factory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Factory.m"; path = "GNRFoundation/Classes/UIView+Factory.m"; sourceTree = "<group>"; };
 		1FF8787E0A7757FF72EDE32E4BAECF20 /* GNRFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNRFoundation-umbrella.h"; sourceTree = "<group>"; };
@@ -193,7 +193,7 @@
 		43AC958DDD40E1D4978638F7DF5BAB5A /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		449D56EA7AD0DED597FD9C7A86CC8A94 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		4655B1006B21F02B345F77ECBF925153 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		4988075C97D71A13A3FC6DF98A76CDA8 /* GNRAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GNRAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4988075C97D71A13A3FC6DF98A76CDA8 /* GNRAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GNRAlertController.framework; path = GNRAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E9344E5A65086010FB6196B1D23919 /* Pods-GNRAlertController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNRAlertController_Example-umbrella.h"; sourceTree = "<group>"; };
 		4C3789235AADB601214236CCD6B660E2 /* NSObject+TKObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+TKObject.h"; path = "GNRFoundation/Classes/NSObject+TKObject.h"; sourceTree = "<group>"; };
 		4CFB48009D3596001E9D42981820C922 /* UIImage+Fix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Fix.h"; path = "GNRFoundation/Classes/UIImage+Fix.h"; sourceTree = "<group>"; };
@@ -224,12 +224,12 @@
 		6615C639D32B5611AB7B7873CCC04B17 /* GNRAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNRAlertController.h; path = GNRAlertController/Classes/GNRAlertController.h; sourceTree = "<group>"; };
 		66D6E5461DF99ED19848AAE38A576C8D /* UIBarButtonItem+Factory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+Factory.m"; path = "GNRFoundation/Classes/UIBarButtonItem+Factory.m"; sourceTree = "<group>"; };
 		686CDA691A2E3694106E403081927074 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		6A60BEA0323C5B3E36C83F1EB37CECBF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A60BEA0323C5B3E36C83F1EB37CECBF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B4BE5168C14BDDE6109507F3B2A9471 /* CALayer+Factory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+Factory.m"; path = "GNRFoundation/Classes/CALayer+Factory.m"; sourceTree = "<group>"; };
 		6D05ED9AD925A376DCC64090EFFA9E52 /* GNRFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNRFoundation.h; path = GNRFoundation/Classes/GNRFoundation.h; sourceTree = "<group>"; };
 		6D3E0ED6D4629E826A9033145C9DF87C /* Pods-GNRAlertController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNRAlertController_Example-dummy.m"; sourceTree = "<group>"; };
 		70CDB4DB4D877F5F97EA29CE320DF44F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		750CB61151600100059BCA96B1C4DBC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		750CB61151600100059BCA96B1C4DBC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		75A85E76DB751272E30B990AAF8EA2EA /* GNRAlertControllerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNRAlertControllerConfig.h; path = GNRAlertController/Classes/GNRAlertControllerConfig.h; sourceTree = "<group>"; };
 		774264E12DF47F8058C931AA1FB9F334 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		784F0223172337CAC70328161FEE55C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -247,14 +247,14 @@
 		8D084FE4D33BACB7BAA9317D8BB2AF4A /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		8E4BD7CA19763CDA28C4CA9DAE508884 /* UIView+GNRSafeArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+GNRSafeArea.h"; path = "GNRFoundation/Classes/UIView+GNRSafeArea.h"; sourceTree = "<group>"; };
 		905FBFCD19707B1F59EA2894B297B9D9 /* GNRAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GNRAlertController.m; path = GNRAlertController/Classes/GNRAlertController.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96573B7CCE4F6846D09C397B83312A09 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		97D76AF1809DF5D4FAD4E38242660874 /* Pods-GNRAlertController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GNRAlertController_Tests.modulemap"; sourceTree = "<group>"; };
 		9A5C7B33E35C2D8B3D41FBDB5943A33E /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		9CFAFE3222BC3E60EB4632ABB9D8FF05 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		9E2F5EA67CD42A01412C1482B13C39D7 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		A07AE3A2876BA3329585A10565745703 /* NSObject+TKObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+TKObject.m"; path = "GNRFoundation/Classes/NSObject+TKObject.m"; sourceTree = "<group>"; };
-		A5DC7870957332C291F37497558A7CF2 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DC7870957332C291F37497558A7CF2 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7599A1F0A08A0645E2CD29ADCF84205 /* Pods-GNRAlertController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNRAlertController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A90F12F035637883F631C256F6CD31CA /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		A9A43CB5329185345F199BF55B5C6F94 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -277,7 +277,7 @@
 		D67931A7A3196C42EC6F937300F81078 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		DB04C2FBB7F4A8D8D3FD1A6EA0A23E9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1D3B11BF255BB86412BBBFC4185BB4C /* GNRAlertContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GNRAlertContentView.m; path = GNRAlertController/Classes/GNRAlertContentView.m; sourceTree = "<group>"; };
-		E2E2F2A152761C4E7FA5A890024A8496 /* GNRAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GNRAlertController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E2E2F2A152761C4E7FA5A890024A8496 /* GNRAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GNRAlertController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EA7C29AA6516FB18A6E565E20BAC361B /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		F014CA245D2E95C6AE1D94DDD42C57F6 /* Pods-GNRAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNRAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F06A182300D94B7E023408F8CC6FFF66 /* Pods-GNRAlertController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNRAlertController_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -285,7 +285,7 @@
 		F55C884EEE37E7B28EBF94AE1F2A7835 /* Pods-GNRAlertController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNRAlertController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F7F74025C217D534D75C0C03DBB72EAA /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		F820662FFCC8A9A063E96978FE0F3CFC /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		FA4AD32CD8855DAE4398B418290A565C /* GNRFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GNRFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4AD32CD8855DAE4398B418290A565C /* GNRFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GNRFoundation.framework; path = GNRFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3AC890DC0ED3B0680D5821CED21AAA /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -381,6 +381,7 @@
 				50F720884152FB4628FAC727BFEA0062 /* UIView+GNRSafeArea.m */,
 				7BD51F004F534A4A5E792E3CA0C4F076 /* Support Files */,
 			);
+			name = GNRFoundation;
 			path = GNRFoundation;
 			sourceTree = "<group>";
 		};
@@ -473,6 +474,7 @@
 				809B98499E859C1417E0B191DD2B6567 /* Support Files */,
 				1A5686C80BC642B8C7561A0E5AD79519 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -592,6 +594,7 @@
 				96573B7CCE4F6846D09C397B83312A09 /* ViewController+MASAdditions.m */,
 				571ED787B136635AA496B9E671A231EF /* Support Files */,
 			);
+			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -1206,7 +1209,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1395,7 +1399,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

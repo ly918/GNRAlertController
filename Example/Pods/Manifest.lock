@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - GNRAlertController (0.3.3):
+  - GNRAlertController (0.4.1):
     - GNRFoundation
     - Masonry
   - GNRFoundation (0.3.0)
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GNRAlertController: 85f5eaa142853d8180a5746ad1df03a6747190a0
+  GNRAlertController: 8f547400b3a4872ce3759ed70d3f0e4aa13dfbd8
   GNRFoundation: eaa393b5dd22acd8aec4b3b2bce734f56e0e0674
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 

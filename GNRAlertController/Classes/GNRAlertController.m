@@ -37,6 +37,7 @@
 
 - (void)dealloc{
     NSLog(@"GNRAlertController Dealloc!");
+    [[NSNotificationCenter defaultCenter]removeObserver:self];
 }
 
 - (instancetype)initWithCustomContentView:(UIView *)customContentView
@@ -135,6 +136,43 @@
     [super viewDidLoad];
     [self installUI];
     [self updateUI];
+    [self addKeyBoardObserve];
+}
+
+-(void)addKeyBoardObserve{
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(keyboardWillShown:)
+                                                 name:UIKeyboardWillShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(keyboardWillBeHidden:)
+                                                 name:UIKeyboardWillHideNotification object:nil];
+}
+
+-(void)keyboardWillShown:(NSNotification *)notification{
+    NSDictionary *info = [notification userInfo];
+    CGFloat duration = [[info objectForKey:UIKeyboardAnimationDurationUserInfoKey] floatValue];
+    NSValue *aValue = [info objectForKey:UIKeyboardFrameEndUserInfoKey];
+    CGRect keyboardRect = [aValue CGRectValue];
+    CGFloat height = keyboardRect.size.height;
+    CGFloat offset = (CGRectGetMaxY(self.containerView.frame)-(CGRectGetHeight(self.view.bounds)-height));
+    offset = offset<0?0:offset;
+    [self.containerView mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.centerY.equalTo(@(-offset));
+    }];
+    [UIView animateWithDuration:duration animations:^{
+        [self.view layoutIfNeeded];
+    }];
+}
+
+-(void)keyboardWillBeHidden:(NSNotification *)notification{
+    NSDictionary *info = [notification userInfo];
+    CGFloat duration = [[info objectForKey:UIKeyboardAnimationDurationUserInfoKey] floatValue];
+    [self.containerView mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.centerY.equalTo(@(0));
+    }];
+    [UIView animateWithDuration:duration animations:^{
+        [self.view layoutIfNeeded];
+    }];
 }
 
 - (void)updateUI{
